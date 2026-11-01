@@ -15,7 +15,7 @@ ROOT=Path(__file__).resolve().parents[1]
 TOPICS=['生成式 AI 產品發布','企業 AI 應用','AI 工具工作流']
 DOMAINS=['openai.com','anthropic.com','deepmind.google','blog.google','microsoft.com','github.com','vercel.com','factory.com','techcrunch.com','reuters.com','theverge.com','engadget.com']
 OFFICIAL={'OpenAI':'https://openai.com/news/','Anthropic':'https://www.anthropic.com/news','Google DeepMind':'https://deepmind.google/blog/'}
-FEEDS=['https://openai.com/news/rss.xml']
+FEEDS=['https://openai.com/news/rss.xml','https://blog.google/rss/']
 TAIPEI=ZoneInfo('Asia/Taipei')
 MAX_PAGE=2_000_000
 class RefreshError(Exception): pass
@@ -36,6 +36,12 @@ def clean_url(value):
     # Do not retain tracking parameters, tokens or fragments in published provenance.
     return urllib.parse.urlunsplit(('https',host,u.path.rstrip('/') or '/', '', ''))
 
+def request_url(value):
+    validated=urllib.parse.urlsplit(clean_url(value))
+    original=urllib.parse.urlsplit(value)
+    # Keep request path semantics: /news and /news/ may redirect differently.
+    return urllib.parse.urlunsplit(('https',validated.netloc,original.path or '/','',''))
+
 def public_host(url):
     host=urllib.parse.urlsplit(url).hostname
     for address in socket.getaddrinfo(host,443,type=socket.SOCK_STREAM):
@@ -46,7 +52,7 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
 
 def get_page(url,allow_xml=False):
     opener=urllib.request.build_opener(NoRedirect)
-    current=clean_url(url)
+    current=request_url(url)
     for _ in range(4):
         public_host(current)
         req=urllib.request.Request(current,headers={'User-Agent':'AI-Signal-Source-Check/1.0','Accept':'application/rss+xml,application/atom+xml,application/xml,text/xml,text/html' if allow_xml else 'text/html,application/xhtml+xml'})
@@ -60,7 +66,7 @@ def get_page(url,allow_xml=False):
             if error.code in (301,302,303,307,308):
                 location=error.headers.get('Location')
                 if not location:raise RefreshError('Missing redirect location')
-                current=clean_url(urllib.parse.urljoin(current,location))
+                current=request_url(urllib.parse.urljoin(current,location))
             else:raise RefreshError('Source unavailable') from None
     raise RefreshError('Too many source redirects')
 

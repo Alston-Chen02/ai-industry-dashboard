@@ -32,6 +32,6 @@ GitHub Pages Source 為 GitHub Actions，.github/workflows/pages.yml 負責建�
 
 `data.json` 保存消息與每天的期別；同一來源沿用 ID，讓收藏保持有效。`refresh-status.json` 保存最後嘗試與成功時間。缺少金鑰或更新失敗時保留上次情報，畫面顯示等待設定或失敗。零則可靠消息會留下一筆「無重大新訊」期別；搜尋來源只有已核對的較早文章時，記錄為未收錄新訊；所有來源均無法讀取或確認時間時視為失敗，避免誤報平靜日。摘要若違反合格來源清單等條件而全部被拒，也視為失敗。每日同日期重跑會替換該期內容，既有歷史消息保留。
 
-已接入 OpenAI 官方 RSS（https://openai.com/news/rss.xml）；RSS 來源會明確標示，摘要依其標題與摘要整理。官方索引無法直連時會顯示搜尋範圍受限；每篇候選的原始時間檢核仍為必要條件。執行結果請見 Actions 與 refresh-status.json。
+已接入 OpenAI 官方 RSS（https://openai.com/news/rss.xml）與 Google 官方部落格 RSS（https://blog.google/rss/）；RSS 來源會明確標示，摘要依其標題與摘要整理。官方索引無法直連時會顯示搜尋範圍受限；每篇候選的原始時間檢核仍為必要條件。執行結果請見 Actions 與 refresh-status.json。
 
 本機驗證：`python3 -m unittest discover -s tests`、`npm run check`、`npm run build`。Python 測試使用合成資料，驗證來源、時間窗、去重、收藏 ID、無新訊與失敗保留資料，不呼叫真實 API。

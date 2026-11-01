@@ -2,6 +2,7 @@ import importlib.util,json,tempfile,unittest
 from datetime import datetime,timezone
 from pathlib import Path
 from unittest.mock import patch
+import io,urllib.error
 spec=importlib.util.spec_from_file_location('refresh',Path(__file__).resolve().parents[1]/'scripts/refresh_news.py')
 m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 NOW=datetime(2026,11,1,1,tzinfo=timezone.utc)
@@ -13,6 +14,21 @@ def article(url=URL,event='new-event'):
 def old():
  return {'edition':'2026-10-31','reviewedAt':'2026-10-31','editions':[],'articles':[{'id':'preserved-bookmark-id','url':URL,'status':'歷史公告'}]}
 class RefreshTests(unittest.TestCase):
+ def test_http_redirect_keeps_canonical_trailing_slash(self):
+  seen=[]
+  class Response:
+   headers={'Content-Type':'text/html'}
+   def __enter__(self):return self
+   def __exit__(self,*args):return False
+   def read(self,n):return page().encode()
+  class Opener:
+   def open(self,request,timeout):
+    seen.append(request.full_url)
+    if len(seen)==1:raise urllib.error.HTTPError(request.full_url,301,'moved',{'Location':'/news/'},io.BytesIO())
+    return Response()
+  with patch.object(m.urllib.request,'build_opener',return_value=Opener()),patch.object(m,'public_host'):
+   final,html=m.get_page('https://openai.com/news')
+  self.assertEqual(seen,['https://openai.com/news','https://openai.com/news/']);self.assertEqual(final,seen[-1])
  def test_publisher_rss_requires_timestamp_and_same_publisher_link(self):
   xml='<rss><channel><item><title>Original news</title><link>'+URL+'</link><pubDate>Sun, 01 Nov 2026 00:30:00 GMT</pubDate><description>Publisher summary</description></item><item><link>https://www.anthropic.com/news/other</link><pubDate>Sun, 01 Nov 2026 00:30:00 GMT</pubDate></item><item><link>'+URL+'</link><pubDate>2026-11-01</pubDate></item></channel></rss>'
   entries=m.parse_official_feed(xml,m.FEEDS[0])
