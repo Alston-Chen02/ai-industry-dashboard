@@ -1,7 +1,24 @@
 {
-  "state": "failed",
-  "lastAttemptAt": "2026-11-01T14:22:32.855001+00:00",
-  "lastSuccessAt": null,
+  "state": "ready",
+  "lastAttemptAt": "2026-11-01T14:30:12.857986+00:00",
+  "lastSuccessAt": "2026-11-01T14:30:12.857986+00:00",
   "schedule": "每日 08:00（台灣時間；執行時間可能延遲）",
-  "message": "No source publication times could establish a reliable current or past news window"
+  "message": "本次情報更新完成。 部分官方索引無法直連，請留意搜尋範圍。",
+  "accepted": 0,
+  "rejected": 0,
+  "inspection": {
+    "verified_publication": 122,
+    "recent": 0,
+    "old": 122,
+    "future": 0,
+    "date_unverified": 2,
+    "unavailable": 4,
+    "duplicates": 0,
+    "discovered": 128,
+    "checked": 128,
+    "not_inspected": 0,
+    "feeds_available": 2,
+    "feeds_unavailable": 0,
+    "feed_items": 120
+  }
 }
