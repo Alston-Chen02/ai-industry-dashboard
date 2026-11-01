@@ -1,7 +1,7 @@
 {
-  "state": "needs_key",
-  "lastAttemptAt": "2026-11-01T12:58:48.000279+00:00",
+  "state": "failed",
+  "lastAttemptAt": "2026-11-01T13:21:24.714470+00:00",
   "lastSuccessAt": null,
   "schedule": "每日 08:00（台灣時間；執行時間可能延遲）",
-  "message": "等待設定模型 API 金鑰；保留上次情報版本。"
+  "message": "Search returned no inspectable source URLs"
 }
