@@ -321,7 +321,7 @@ def main():
         print('Candidate exclusions: '+json.dumps(dict(Counter(rejected)),sort_keys=True))
         inspection=result.get('inspection',{})
         if result['articles'] and not accepted:raise RefreshError('All candidates failed original-source or publication-time verification')
-        coverage=f'AI 搜尋取得 {len(sources)} 個可信網域來源；優先官方索引可直連 {len(checked)}/3。'+(' 無法直連：'+'、'.join(unavailable)+'；搜尋涵蓋有限，不代表完整產業動態。' if unavailable else '')+'收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。'+(f' {len(rejected)} 筆候選未通過檢核。' if rejected else '')
+        coverage=f'搜尋與官方 RSS 取得 {len(sources)} 項可信網域來源；優先官方索引可直連 {len(checked)}/3。'+(' 無法直連：'+'、'.join(unavailable)+'；搜尋涵蓋有限，不代表完整產業動態。' if unavailable else '')+'收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。'+(f' {len(rejected)} 筆候選未通過檢核。' if rejected else '')
         if inspection:
             coverage+=f" 來源時間檢核 {inspection['checked']} 項（含官方 RSS）：24 小時內 {inspection['recent']}、較早 {inspection['old']}、未來 {inspection['future']}、時間不明 {inspection['date_unverified']}、無法讀取 {inspection['unavailable']}；另有 {inspection['not_inspected']} 頁未檢核；官方 RSS 可讀 {inspection.get('feeds_available',0)}/{len(FEEDS)}。"
         limited=bool(unavailable or any(inspection.get(k,0) for k in ('date_unverified','unavailable','not_inspected','future','feeds_unavailable')))
