@@ -1,7 +1,7 @@
 {
   "state": "failed",
-  "lastAttemptAt": "2026-11-01T13:56:12.378642+00:00",
+  "lastAttemptAt": "2026-11-01T14:01:03.813632+00:00",
   "lastSuccessAt": null,
   "schedule": "每日 08:00（台灣時間；執行時間可能延遲）",
-  "message": "Source unavailable"
+  "message": "All candidates failed original-source or publication-time verification"
 }
