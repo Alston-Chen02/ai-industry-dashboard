@@ -1,0 +1,63 @@
+name: Refresh daily AI briefing
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci --ignore-scripts
+      - name: Search, verify and prepare daily edition
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+        run: python scripts/refresh_news.py
+      - run: python -m unittest discover -s tests
+      - run: npm run check
+      - run: npm run build
+      - name: Save snapshot and refresh status
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data.json refresh-status.json index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update AI briefing snapshot and refresh status'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy latest retained or refreshed edition
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report refresh result
+        run: |
+          python - <<'PY'
+          import json,os
+          s=json.load(open('refresh-status.json'))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('## AI briefing refresh\n\nState: '+s['state']+'\n\n'+s['message']+'\n')
+          if s['state']=='failed':
+              raise SystemExit('Refresh failed; the previous good edition remains published.')
+          PY

@@ -2,6 +2,7 @@ import { build } from 'esbuild';
 import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
 let html=await readFile('src/template.html','utf8');
 const snapshot=JSON.parse(await readFile('data.json','utf8'));
+snapshot.refresh=JSON.parse(await readFile('refresh-status.json','utf8'));
 html=html.replace(/(<script id="snapshot" type="application\/json">)[\s\S]*?(<\/script>)/,(_,a,b)=>a+JSON.stringify(snapshot).replaceAll('</','<\\/')+b);
 const inline=html.match(/<script data-app>([\s\S]*?)<\/script>/);
 if(!inline) throw new Error('Missing application source');

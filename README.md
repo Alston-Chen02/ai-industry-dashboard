@@ -34,6 +34,16 @@ GitHub Pages Source 為 GitHub Actions，.github/workflows/pages.yml 負責建�
 - 新專案安全顧問未回報警告。
 - 已檢查手機版排版、公開閱讀與登入視窗。全新專案沒有實際使用者；首次註冊的郵件傳遞、確認與跨裝置實際登入仍需使用者完成，未宣稱這部分端到端驗證通過。
 
-## 情報與後續更新
+## 每日情報更新
 
-目前情報來自 2026/11/01 試跑保留的三筆歷史官方公告，非當日新訊或完整歷史資料。每日 08:00 搜尋與模型摘要尚未啟用，現有 ChatGPT 排程尚未串接此站。GitHub Actions 目前僅部署網站。未來 API 金鑰應儲存於 Actions secrets 或後端，不可放入前端。
+`.github/workflows/refresh.yml` 每日台灣時間 08:00 執行，也可在 Actions → Refresh daily AI briefing → Run workflow 手動執行。GitHub 排程可能延遲。更新流程直接重新部署 Pages，不依賴機器人 commit 觸發另一份 workflow。
+
+在 Repository Settings → Secrets and variables → Actions → New repository secret 新增 `OPENAI_API_KEY`，值為可使用 Responses API 與網頁搜尋的 OpenAI API key。金鑰只提供給 Actions，不進前端、不寫入 repository。不需要另外接搜尋供應商；目前使用 Responses API 的 web_search。模型預設 `gpt-4.1-mini`，可用 Actions variable `OPENAI_MODEL` 覆寫為相容模型。API 呼叫依該 API 帳戶計費。
+
+每次更新最多兩次模型呼叫，搜尋最多六個工具呼叫、最多八則消息。僅收錄可信網域、實際搜尋來源，並讀取原網頁 metadata 核對含時區的原始發布時間是否落在過去 24 小時；日期不明、舊消息、未來時間、衝突時間及重複來源不收錄。AI 摘要明確標示未經人工逐則審閱，不宣稱已涵蓋全部產業消息。
+
+`data.json` 保存消息與每天的期別；同一來源沿用 ID，讓收藏保持有效。`refresh-status.json` 保存最後嘗試與成功時間。缺少金鑰或更新失敗時保留上次情報，畫面顯示等待設定或失敗。零則可靠消息會留下一筆「無重大新訊」期別；候選全部未通過檢核則視為失敗，避免誤報平靜日。每日同日期重跑會替換該期內容，既有歷史消息保留。
+
+目前資料仍為 2026/11/01 試跑的三筆歷史官方公告。正式 API 搜尋與摘要須待金鑰設定後執行，未宣稱已完成實際 API 驗證。既有 ChatGPT 排程與本站 Actions 為獨立流程。
+
+本機驗證：`python3 -m unittest discover -s tests`、`npm run check`、`npm run build`。Python 測試使用合成資料，驗證來源、時間窗、去重、收藏 ID、無新訊與失敗保留資料，不呼叫真實 API。
