@@ -44,6 +44,6 @@ GitHub Pages Source 為 GitHub Actions，.github/workflows/pages.yml 負責建�
 
 `data.json` 保存消息與每天的期別；同一來源沿用 ID，讓收藏保持有效。`refresh-status.json` 保存最後嘗試與成功時間。缺少金鑰或更新失敗時保留上次情報，畫面顯示等待設定或失敗。零則可靠消息會留下一筆「無重大新訊」期別；候選全部未通過檢核則視為失敗，避免誤報平靜日。每日同日期重跑會替換該期內容，既有歷史消息保留。
 
-目前資料仍為 2026/11/01 試跑的三筆歷史官方公告。正式 API 搜尋與摘要須待金鑰設定後執行，未宣稱已完成實際 API 驗證。既有 ChatGPT 排程與本站 Actions 為獨立流程。
+目前資料仍為 2026/11/01 試跑的三筆歷史官方公告。GitHub 已設定 OPENAI_API_KEY。2026/11/01 實際試跑曾收到完成的搜尋呼叫但沒有可核對來源；調整後的最新試跑回報 HTTP 429 / credit_balance_exhausted（API 額度耗盡）。每日搜尋與摘要尚未完成端到端驗證，需先恢復 API 額度，再檢查來源及摘要結果；目前保留原始歷史情報。既有 ChatGPT 排程與本站 Actions 為獨立流程。
 
 本機驗證：`python3 -m unittest discover -s tests`、`npm run check`、`npm run build`。Python 測試使用合成資料，驗證來源、時間窗、去重、收藏 ID、無新訊與失敗保留資料，不呼叫真實 API。
