@@ -1,7 +1,7 @@
 {
   "state": "failed",
-  "lastAttemptAt": "2026-11-01T13:21:24.714470+00:00",
+  "lastAttemptAt": "2026-11-01T13:24:29.172702+00:00",
   "lastSuccessAt": null,
   "schedule": "每日 08:00（台灣時間；執行時間可能延遲）",
-  "message": "Search returned no inspectable source URLs"
+  "message": "Model API returned HTTP 400; no briefing was replaced"
 }
