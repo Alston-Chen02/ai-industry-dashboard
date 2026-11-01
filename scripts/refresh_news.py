@@ -179,7 +179,7 @@ def apply_edition(old,accepted,now,coverage):
         if matched:a={**a,'id':matched['id']}
         by_id[a['id']]=a
     current_ids=[next(a['id'] for a in by_id.values() if clean_url(a['url'])==clean_url(item['url'])) for item in accepted]
-    entry={'date':edition,'status':'ready' if accepted else 'quiet','message':f'本期收錄 {len(accepted)} 則重要進展' if accepted else '今日沒有足夠重要更新','note':coverage,'articleIds':current_ids,'windowStart':start,'windowEnd':stamp,'updatedAt':stamp}
+    entry={'date':edition,'status':'ready' if accepted else 'quiet','message':f'本期收錄 {len(accepted)} 則重要進展' if accepted else '本期未收錄可核對的新訊','note':coverage,'articleIds':current_ids,'windowStart':start,'windowEnd':stamp,'updatedAt':stamp}
     editions=[e for e in old.get('editions',[]) if e['date']!=edition]+[entry]
     return {**old,'edition':edition,'reviewedAt':stamp,'reviewedTimePrecision':'instant','timezone':'Asia/Taipei','refreshMode':'scheduled','buildStatus':'complete','coverage':coverage,'editions':sorted(editions,key=lambda e:e['date'],reverse=True),'articles':list(by_id.values())}
 
@@ -197,14 +197,19 @@ def main():
         print('No OPENAI_API_KEY configured; last good edition retained.');return 0
     try:
         result,sources=discover(key,now)
-        # Verify the three official priority indexes are reachable; partial coverage is a failed refresh.
-        for url in OFFICIAL.values():get_page(url)
+        # Index availability is coverage evidence, not an article validation gate.
+        # A blocked index must not discard independently verified news or imply full coverage.
+        checked=[];unavailable=[]
+        for name,url in OFFICIAL.items():
+            try:get_page(url);checked.append(name)
+            except (RefreshError,OSError,ValueError):unavailable.append(name)
+        print(f'Priority index coverage: reachable={len(checked)}, unavailable={len(unavailable)}')
         accepted,rejected=validate_candidates(result['articles'],sources,now)
         if result['articles'] and not accepted:raise RefreshError('All candidates failed original-source or publication-time verification')
-        coverage='已連線檢查三個優先官方來源；由 AI 搜尋與摘要，收錄文章的原始發布時間由程式核對。'+(f' {len(rejected)} 筆候選未通過檢核。' if rejected else '')
-        old=json.loads((ROOT/'data.json').read_text());updated=apply_edition(old,accepted,now,coverage)
+        coverage=f'AI 搜尋取得 {len(sources)} 個可信網域來源；優先官方索引可直連 {len(checked)}/3。'+(' 無法直連：'+'、'.join(unavailable)+'；搜尋涵蓋有限，不代表完整產業動態。' if unavailable else '')+'收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。'+(f' {len(rejected)} 筆候選未通過檢核。' if rejected else '')
+        old=json.loads((ROOT/'data.json').read_text());updated=apply_edition(old,accepted,now,coverage);updated['coverageLimited']=bool(unavailable)
         (ROOT/'data.json').write_text(json.dumps(updated,ensure_ascii=False,indent=2)+'\n')
-        write_status('ready',now,lastSuccessAt=now.isoformat(),message='本次情報更新完成。',accepted=len(accepted),rejected=len(rejected))
+        write_status('ready',now,lastSuccessAt=now.isoformat(),message='本次情報更新完成。'+(' 部分官方索引無法直連，請留意搜尋範圍。' if unavailable else ''),accepted=len(accepted),rejected=len(rejected))
         print(f'Refreshed {len(accepted)} articles; rejected {len(rejected)} candidates.');return 0
     except Exception as error:
         # Never print request bodies, raw API responses, secrets or arbitrary remote error text.

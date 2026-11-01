@@ -57,6 +57,12 @@ class RefreshTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as tmp,patch.object(m,'ROOT',Path(tmp)),patch.dict('os.environ',{'OPENAI_API_KEY':''}):
    p=Path(tmp)/'data.json';p.write_text(json.dumps(old()));before=p.read_bytes();self.assertEqual(m.main(),0)
    self.assertEqual(p.read_bytes(),before);self.assertEqual(json.loads((Path(tmp)/'refresh-status.json').read_text())['state'],'needs_key')
+ def test_unavailable_index_reports_limited_coverage_without_fabricated_news(self):
+  with tempfile.TemporaryDirectory() as tmp,patch.object(m,'ROOT',Path(tmp)),patch.dict('os.environ',{'OPENAI_API_KEY':'unit-test-placeholder'}),patch.object(m,'discover',return_value=({'articles':[]},{URL})),patch.object(m,'get_page',side_effect=m.RefreshError('Source unavailable')):
+   (Path(tmp)/'data.json').write_text(json.dumps(old()))
+   m.main();d=json.loads((Path(tmp)/'data.json').read_text())
+   self.assertTrue(d['coverageLimited']);self.assertIn('0/3',d['coverage']);self.assertEqual(d['editions'][0]['articleIds'],[])
+   self.assertEqual(d['articles'][0]['id'],'preserved-bookmark-id')
  def test_api_failure_retains_data_and_success_time(self):
   with tempfile.TemporaryDirectory() as tmp,patch.object(m,'ROOT',Path(tmp)),patch.dict('os.environ',{'OPENAI_API_KEY':'unit-test-placeholder'}),patch.object(m,'discover',side_effect=m.RefreshError('API unavailable')):
    p=Path(tmp)/'data.json';p.write_text(json.dumps(old()));before=p.read_bytes()
