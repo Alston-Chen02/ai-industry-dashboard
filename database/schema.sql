@@ -1,5 +1,5 @@
--- Applied through Supabase migration ai_signal_private_bookmarks.
--- Auth is shared with the existing project; application data is isolated by table and user.
+-- For the new, dedicated AI SIGNAL project. Not currently applied.
+-- The former table in the travel project was removed after confirming it was empty.
 create table public.ai_signal_bookmarks (
   user_id uuid not null references auth.users(id) on delete cascade,
   article_id text not null check (char_length(article_id) between 1 and 160),

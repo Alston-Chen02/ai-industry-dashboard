@@ -1,47 +1,33 @@
 # AI SIGNAL｜AI 產業觀測站
 
-手機優先的繁體中文 AI 情報 Dashboard。深色介面、內嵌 SVG 圖示、主題/組織/日期/關鍵字篩選、來源查核、Markdown 匯出。
+正式網站：https://alston-chen02.github.io/ai-industry-dashboard/
 
-## 公開閱讀與私密收藏
+## 移轉狀態
 
-- 公開情報不需登入。右上角「登入收藏」或「已存訊號」頁面可登入。
-- 使用 Supabase Auth 的電子郵件與密碼登入。新帳戶需先驗證信箱。
-- 個人收藏儲存在 `public.ai_signal_bookmarks`；RLS 限制每人只能讀寫自己的資料。
-- 使用現有 Supabase `Tokyo-family-travel-expenses` 專案，資料表獨立；登入帳戶屬於同一個 Supabase 專案。未修改旅遊記帳資料表與既有權限。
-- 前端只有 publishable key，不包含 service_role、管理金鑰或任何人的密碼。
-- 原本的本機收藏不會自動上傳；登入後可在收藏頁明確選擇「匯入本機收藏」。
-- 登出會清除畫面中的雲端收藏；不刪除雲端資料。同步失敗時會顯示重試，暫停修改。
+使用者指定使用其他 Supabase Organization 建立獨立 AI SIGNAL 專案。目前僅能存取 Personal Travel 組織，等待新組織名稱與連線，以及該組織的建置費用確認。
 
-## 建置與部署
+已將 `config.json` 設為 enabled:false；不建立 Supabase client、不發送登入或收藏請求。網站保留公開閱讀、分類/組織/日期/文字搜尋、來源查核、Markdown 匯出及手機導覽。右上角與收藏頁明確顯示登入服務建置中。
 
-使用 Node 24，依 package-lock.json 固定版本：
+旅遊專案的 ai_signal_bookmarks 表在確認為空後已移除，原旅遊資料表不受影響。Dashboard 回跳網址也需自旅遊專案移除；不更動其 Site URL 或其他回跳網址。
 
-```sh
-npm ci --ignore-scripts
-npm run check
-npm run build
-```
+## 待接續
 
-`src/template.html`：版型與主要互動；`cloud.js`：登入與收藏同步；`data.json`：已查核消息；`config.json`：公開的 Supabase 專案 URL 與 publishable key。`npm run build` 會將 SDK 與應用程式打包到自含的 `dist/index.html`，並同步根目錄 `index.html`。不依賴 CDN。
+1. 確認另一個 Organization 的名稱與存取權限。
+2. 依該組織實際費用報價，完成新專案建立確認。
+3. 建立獨立 AI SIGNAL 專案、套用 database/schema.sql、啟用 email auth、設定正式回跳網址。
+4. 將該專案 URL、publishable key 與 enabled:true 寫入 config.json；執行 npm run build。
+5. 部署後驗證登入、登出、雲端收藏與帳戶隔離。
 
-GitHub Pages：Settings → Pages → Source 選 GitHub Actions，推送 main 或手動執行 Deploy AI Signal to GitHub Pages。也可直接以 main / root 發布已建置的 index.html。
+## 程式與部署
 
-## Supabase 登入網址
+Node 24。npm ci --ignore-scripts → npm run check → npm run build。
 
-正式上線後，必須在 Authentication → URL Configuration 的 Redirect URLs 加入正式網站精確網址（含尾端斜線）。保留既有 Site URL，避免影響旅遊網站。註冊驗證及密碼重設都會以此網址為回跳目標。這一步尚需正式網址完成後確認。
+src/template.html 是版型與頁面程式，cloud.js 是登入與私密收藏整合，data.json 為已查核消息。建置將固定版本 SDK 與程式內嵌到 dist/index.html，並同步根目錄 index.html。不使用 CDN，不包含 service_role 或管理金鑰。
 
-目前專案 email provider 已啟用、允許註冊且必須驗證信箱。寄信額度與自訂 SMTP 依 Supabase 專案設定；不保證內建寄信可供大量外部使用。
+GitHub Pages 由 .github/workflows/pages.yml 部署。前端公開；個人收藏未來由獨立 Supabase Auth 與 RLS 保護。登入後可明確選擇匯入先前本機收藏；不會自動將本機清單上傳至任何帳戶。
 
-## 已完成驗證
+## 驗證與資料範圍
 
-- JavaScript 語法與正式打包成功。
-- 匿名 Data API 存取收藏回傳 401 / 42501。
-- 已以兩個既有身分，在 rollback-only 交易中驗證：只能看到自己的測試收藏；可新增/刪除自己的資料；無法新增/刪除別人的資料。測試交易已回滾，無殘留測試資料。
-- Supabase 安全顧問沒有回報新收藏表的警告；既有專案另有 SECURITY DEFINER 函式可執行權限及未啟用外洩密碼防護的警告，未擅自調整共享專案設定。
-- 真正的帳戶登入、郵件回跳與跨裝置同步，仍須在正式網站與使用者帳戶完成端到端驗證。
+已驗證手機版 390px 排版、篩選、來源檢視與登入視窗。移轉前收藏 RLS 已以兩個既有身分在 rollback-only 交易中驗證隔離、本人新增/刪除及禁止跨帳戶修改；無測試資料殘留。舊專案未成功登入任何新帳戶，不能宣稱完整端到端登入流程已通過。新專案建置後需重新驗證。
 
-## 情報資料與自動更新
-
-目前消息來自 2026/11/01 對話試跑保留的三筆歷史官方公告，不是當日新訊或完整歷史資料庫；精確試跑時間未保留。
-
-每日 08:00 新聞搜尋與摘要尚未啟用。現有 Pages workflow 只部署網站，不會自行產生新消息。未來搜尋/模型 API 金鑰只能設在 GitHub Actions secrets 或後端，不可放入此 repository 的前端設定。現有 ChatGPT 排程尚未與本網站連接。
+目前情報是 2026/11/01 試跑保留的三筆歷史官方公告；不是今日新訊或完整歷史資料。每日 08:00 搜尋、模型摘要與網站更新尚未啟用；現有 ChatGPT 排程也未與此網站連接。GitHub Actions 目前只部署網站。
