@@ -5,6 +5,9 @@ from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from concurrent.futures import ThreadPoolExecutor
 from collections import Counter
+from email.utils import parsedate_to_datetime
+from html import escape
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -12,6 +15,7 @@ ROOT=Path(__file__).resolve().parents[1]
 TOPICS=['生成式 AI 產品發布','企業 AI 應用','AI 工具工作流']
 DOMAINS=['openai.com','anthropic.com','deepmind.google','blog.google','microsoft.com','github.com','vercel.com','factory.com','techcrunch.com','reuters.com','theverge.com','engadget.com']
 OFFICIAL={'OpenAI':'https://openai.com/news/','Anthropic':'https://www.anthropic.com/news','Google DeepMind':'https://deepmind.google/blog/'}
+FEEDS=['https://openai.com/news/rss.xml']
 TAIPEI=ZoneInfo('Asia/Taipei')
 MAX_PAGE=2_000_000
 class RefreshError(Exception): pass
@@ -40,15 +44,15 @@ def public_host(url):
 class NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self,*args,**kwargs):return None
 
-def get_page(url):
+def get_page(url,allow_xml=False):
     opener=urllib.request.build_opener(NoRedirect)
     current=clean_url(url)
     for _ in range(4):
         public_host(current)
-        req=urllib.request.Request(current,headers={'User-Agent':'AI-Signal-Source-Check/1.0','Accept':'text/html,application/xhtml+xml'})
+        req=urllib.request.Request(current,headers={'User-Agent':'AI-Signal-Source-Check/1.0','Accept':'application/rss+xml,application/atom+xml,application/xml,text/xml,text/html' if allow_xml else 'text/html,application/xhtml+xml'})
         try:
             with opener.open(req,timeout=12) as response:
-                if 'html' not in response.headers.get('Content-Type',''):raise RefreshError('Source is not an HTML page')
+                if not any(t in response.headers.get('Content-Type','') for t in (('html','xml') if allow_xml else ('html',))):raise RefreshError('Unsupported source document type')
                 raw=response.read(MAX_PAGE+1)
                 if len(raw)>MAX_PAGE:raise RefreshError('Source exceeds verification size limit')
                 return current,raw.decode('utf-8',errors='replace')
@@ -138,6 +142,35 @@ class ArticleText(HTMLParser):
     def handle_data(self,data):
         if not self.hidden and data.strip():self.parts.append(data.strip())
 
+def parse_official_feed(xml,feed_url):
+    if '<!DOCTYPE' in xml.upper():raise RefreshError('Unsupported feed declaration')
+    try:root=ET.fromstring(xml)
+    except ET.ParseError:raise RefreshError('Invalid publisher feed') from None
+    entries=[]
+    ns={'a':'http://www.w3.org/2005/Atom'}
+    for node in root.findall('./channel/item')[:100]+root.findall('a:entry',ns)[:100]:
+        date=node.findtext('pubDate') or node.findtext('a:published',namespaces=ns)
+        try:
+            published=utc(date)
+            if published is None and date:
+                published=parsedate_to_datetime(date)
+                if published.tzinfo is None:continue
+                published=published.astimezone(timezone.utc)
+            if published is None:continue
+            link=node.findtext('link')
+            if not link:
+                links=node.findall('a:link',ns)
+                link=next((n.get('href') for n in links if n.get('rel','alternate')=='alternate'),None)
+            url=clean_url(link)
+            if urllib.parse.urlsplit(url).hostname.removeprefix('www.')!=urllib.parse.urlsplit(feed_url).hostname.removeprefix('www.'):continue
+        except (ValueError,TypeError,RefreshError):continue
+        title=node.findtext('title') or node.findtext('a:title',namespaces=ns) or ''
+        description=node.findtext('description') or node.findtext('a:summary',namespaces=ns) or ''
+        html='<meta property="article:published_time" content="'+published.isoformat()+'"><article>'+escape(title+' '+description[:12000])+'</article>'
+        entries.append((url,html,published))
+    if not entries:raise RefreshError('Publisher feed has no dated entries')
+    return entries
+
 def inspect_sources(sources,now,fetch=None):
     fetch=fetch or get_page
     # Bound network work and keep the same verified pages for post-summary validation.
@@ -179,6 +212,25 @@ def discover(key,now):
     print(f'Search diagnostics: calls={len(search_calls)}, raw_sources={raw_sources}, citations={citations}, allowed_sources={len(sources)}, text_chars={len(response_text(research))}')
     if not sources:raise RefreshError('Search returned no inspectable source URLs')
     eligible,pages,inspection=inspect_sources(sources,now)
+    provenance={};inspection.update(feeds_available=0,feeds_unavailable=0,feed_items=0)
+    for feed in FEEDS:
+        try:
+            final_feed,xml=get_page(feed,allow_xml=True)
+            entries=parse_official_feed(xml,final_feed)
+            inspection['feeds_available']+=1
+        except (RefreshError,OSError,ValueError):
+            inspection['feeds_unavailable']+=1;continue
+        for url,html,published in entries:
+            if url in pages:continue
+            sources.add(url);inspection['feed_items']+=1;inspection['checked']+=1;inspection['verified_publication']+=1
+            kind='old' if published<start else 'future' if published>=now else 'recent'
+            inspection[kind]+=1
+            if kind!='recent':continue
+            body=ArticleText();body.feed(html)
+            eligible.append({'url':url,'publishedAt':published.isoformat(),'text':' '.join(body.parts)[:10000]})
+            pages[url]=(url,html);provenance[url]=final_feed
+    inspection['discovered']=len(sources)
+    eligible.sort(key=lambda a:a['publishedAt'],reverse=True);eligible=eligible[:12]
     print('Publication inspection: '+json.dumps(inspection,sort_keys=True))
     if not eligible:
         if not inspection['old']:
@@ -192,7 +244,7 @@ def discover(key,now):
     try:result=json.loads(response_text(structured))
     except ValueError:raise RefreshError('Structured briefing could not be parsed') from None
     if not isinstance(result.get('articles'),list) or len(result['articles'])>8:raise RefreshError('Invalid briefing item count')
-    result['inspection']=inspection;result['_pages']=pages
+    result['inspection']=inspection;result['_pages']=pages;result['_feed_provenance']=provenance
     return result,sources
 
 def validate_candidates(candidates,sources,now,fetch=get_page):
@@ -256,13 +308,17 @@ def main():
             if url not in pages:raise RefreshError('Summary URL was not in the preverified source pages')
             return pages[url]
         accepted,rejected=validate_candidates(result['articles'],sources,now,fetch=verified_page)
+        for article in accepted:
+            feed=result.get('_feed_provenance',{}).get(article['url'])
+            if feed:
+                article.update(evidence='AI 整理・官方 RSS 時間核對',timing='發布時間依發布者官方 RSS（含時區）核對；原文：'+feed,detail='AI 摘要依官方 RSS 的標題與摘要整理，未經人工逐則審閱；可開啟原始來源查證。')
         print('Candidate exclusions: '+json.dumps(dict(Counter(rejected)),sort_keys=True))
         inspection=result.get('inspection',{})
         if result['articles'] and not accepted:raise RefreshError('All candidates failed original-source or publication-time verification')
         coverage=f'AI 搜尋取得 {len(sources)} 個可信網域來源；優先官方索引可直連 {len(checked)}/3。'+(' 無法直連：'+'、'.join(unavailable)+'；搜尋涵蓋有限，不代表完整產業動態。' if unavailable else '')+'收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。'+(f' {len(rejected)} 筆候選未通過檢核。' if rejected else '')
         if inspection:
-            coverage+=f" 原文時間檢核 {inspection['checked']} 頁：24 小時內 {inspection['recent']}、較早 {inspection['old']}、未來 {inspection['future']}、時間不明 {inspection['date_unverified']}、無法讀取 {inspection['unavailable']}；另有 {inspection['not_inspected']} 頁未檢核。"
-        limited=bool(unavailable or any(inspection.get(k,0) for k in ('date_unverified','unavailable','not_inspected','future')))
+            coverage+=f" 來源時間檢核 {inspection['checked']} 項（含官方 RSS）：24 小時內 {inspection['recent']}、較早 {inspection['old']}、未來 {inspection['future']}、時間不明 {inspection['date_unverified']}、無法讀取 {inspection['unavailable']}；另有 {inspection['not_inspected']} 頁未檢核；官方 RSS 可讀 {inspection.get('feeds_available',0)}/{len(FEEDS)}。"
+        limited=bool(unavailable or any(inspection.get(k,0) for k in ('date_unverified','unavailable','not_inspected','future','feeds_unavailable')))
         old=json.loads((ROOT/'data.json').read_text());updated=apply_edition(old,accepted,now,coverage);updated['coverageLimited']=limited
         (ROOT/'data.json').write_text(json.dumps(updated,ensure_ascii=False,indent=2)+'\n')
         write_status('ready',now,lastSuccessAt=now.isoformat(),message='本次情報更新完成。'+(' 部分官方索引無法直連，請留意搜尋範圍。' if unavailable else ''),accepted=len(accepted),rejected=len(rejected),inspection=inspection)

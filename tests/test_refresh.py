@@ -13,6 +13,19 @@ def article(url=URL,event='new-event'):
 def old():
  return {'edition':'2026-10-31','reviewedAt':'2026-10-31','editions':[],'articles':[{'id':'preserved-bookmark-id','url':URL,'status':'歷史公告'}]}
 class RefreshTests(unittest.TestCase):
+ def test_publisher_rss_requires_timestamp_and_same_publisher_link(self):
+  xml='<rss><channel><item><title>Original news</title><link>'+URL+'</link><pubDate>Sun, 01 Nov 2026 00:30:00 GMT</pubDate><description>Publisher summary</description></item><item><link>https://www.anthropic.com/news/other</link><pubDate>Sun, 01 Nov 2026 00:30:00 GMT</pubDate></item><item><link>'+URL+'</link><pubDate>2026-11-01</pubDate></item></channel></rss>'
+  entries=m.parse_official_feed(xml,m.FEEDS[0])
+  self.assertEqual(len(entries),1);self.assertEqual(entries[0][0],URL);self.assertEqual(m.original_timestamp(entries[0][1]),datetime(2026,11,1,0,30,tzinfo=timezone.utc))
+ def test_rss_old_news_can_establish_empty_edition_when_article_pages_unavailable(self):
+  research={'status':'completed','output':[{'type':'web_search_call','status':'completed','action':{'sources':[{'url':URL}]}}]}
+  xml='<rss><channel><item><title>Older news</title><link>'+URL+'</link><pubDate>Fri, 30 Oct 2026 00:30:00 GMT</pubDate></item></channel></rss>'
+  def fetch(u,**kwargs):
+   if u==m.FEEDS[0]:return u,xml
+   raise m.RefreshError('Source unavailable')
+  with patch.object(m,'call_api',return_value=research) as api,patch.object(m,'get_page',side_effect=fetch):
+   result,sources=m.discover('unit-test-placeholder',NOW)
+   self.assertEqual(result['articles'],[]);self.assertEqual(result['inspection']['feeds_available'],1);self.assertEqual(result['inspection']['old'],1);self.assertEqual(api.call_count,1)
  def test_preinspection_classifies_without_inferring_missing_dates(self):
   urls={f'https://openai.com/index/case-{i}' for i in range(5)}
   def fetch(u):
@@ -45,7 +58,7 @@ class RefreshTests(unittest.TestCase):
    supplied=json.loads(payload['input'][1]['content'])['verified_source_pages']
    self.assertEqual([a['url'] for a in supplied],[URL]);self.assertIn('real article content',supplied[0]['text'])
    return {'status':'completed','output':[{'content':[{'type':'output_text','text':json.dumps({'articles':[article()],'coverage_note':'tested'})}]}]}
-  def fetch(u):return u,page('2026-10-30T00:00:00Z' if u==older else '2026-11-01T00:30:00Z')+'<article>real article content</article>'
+  def fetch(u,**kwargs):return u,page('2026-10-30T00:00:00Z' if u==older else '2026-11-01T00:30:00Z')+'<article>real article content</article>'
   with patch.object(m,'call_api',side_effect=api),patch.object(m,'get_page',side_effect=fetch):
    result,sources=m.discover('unit-test-placeholder',NOW)
    accepted,rejected=m.validate_candidates(result['articles'],sources,NOW,lambda u:result['_pages'][u])
