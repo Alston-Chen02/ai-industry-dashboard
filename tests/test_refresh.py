@@ -13,6 +13,43 @@ def article(url=URL,event='new-event'):
 def old():
  return {'edition':'2026-10-31','reviewedAt':'2026-10-31','editions':[],'articles':[{'id':'preserved-bookmark-id','url':URL,'status':'歷史公告'}]}
 class RefreshTests(unittest.TestCase):
+ def test_preinspection_classifies_without_inferring_missing_dates(self):
+  urls={f'https://openai.com/index/case-{i}' for i in range(5)}
+  def fetch(u):
+   i=int(u[-1])
+   if i==4:raise m.RefreshError('Source unavailable')
+   stamps=['2026-11-01T00:30:00Z','2026-10-30T00:00:00Z','2026-11-01','2026-11-01T03:00:00Z']
+   return u,page(stamps[i])
+  eligible,pages,report=m.inspect_sources(urls,NOW,fetch)
+  self.assertEqual(len(eligible),1)
+  for k in ('recent','old','future','date_unverified','unavailable'):self.assertEqual(report[k],1)
+  self.assertEqual(set(pages),{eligible[0]['url']})
+ def test_old_verified_sources_produce_empty_edition_without_summary_call(self):
+  research={'status':'completed','output':[{'type':'web_search_call','status':'completed','action':{'sources':[{'url':URL}]}}]}
+  with patch.object(m,'call_api',return_value=research) as api,patch.object(m,'get_page',return_value=(URL,page('2026-10-30T00:00:00Z'))):
+   result,sources=m.discover('unit-test-placeholder',NOW)
+   self.assertEqual(result['articles'],[]);self.assertEqual(result['inspection']['old'],1);self.assertEqual(api.call_count,1)
+ def test_unavailable_sources_fail_and_retain_previous_edition(self):
+  research={'status':'completed','output':[{'type':'web_search_call','status':'completed','action':{'sources':[{'url':URL}]}}]}
+  with tempfile.TemporaryDirectory() as tmp,patch.object(m,'ROOT',Path(tmp)),patch.dict('os.environ',{'OPENAI_API_KEY':'unit-test-placeholder'}),patch.object(m,'call_api',return_value=research),patch.object(m,'get_page',side_effect=m.RefreshError('Source unavailable')):
+   p=Path(tmp)/'data.json';p.write_text(json.dumps(old()));before=p.read_bytes()
+   m.main();self.assertEqual(p.read_bytes(),before)
+   self.assertEqual(json.loads((Path(tmp)/'refresh-status.json').read_text())['state'],'failed')
+ def test_summary_receives_only_preverified_recent_source_content(self):
+  older='https://openai.com/index/older'
+  research={'status':'completed','output':[{'type':'web_search_call','status':'completed','action':{'sources':[{'url':URL},{'url':older}]}}]}
+  calls=[]
+  def api(payload,key):
+   calls.append(payload)
+   if len(calls)==1:return research
+   supplied=json.loads(payload['input'][1]['content'])['verified_source_pages']
+   self.assertEqual([a['url'] for a in supplied],[URL]);self.assertIn('real article content',supplied[0]['text'])
+   return {'status':'completed','output':[{'content':[{'type':'output_text','text':json.dumps({'articles':[article()],'coverage_note':'tested'})}]}]}
+  def fetch(u):return u,page('2026-10-30T00:00:00Z' if u==older else '2026-11-01T00:30:00Z')+'<article>real article content</article>'
+  with patch.object(m,'call_api',side_effect=api),patch.object(m,'get_page',side_effect=fetch):
+   result,sources=m.discover('unit-test-placeholder',NOW)
+   accepted,rejected=m.validate_candidates(result['articles'],sources,NOW,lambda u:result['_pages'][u])
+   self.assertEqual(len(accepted),1);self.assertEqual(rejected,[])
  def test_search_sources_and_inline_citations(self):
   response={'output':[{'type':'web_search_call','action':{'sources':[{'url':URL},{'url':'https://untrusted.example/article'}]}},{'type':'message','content':[{'type':'output_text','text':'research','annotations':[{'type':'url_citation','url':'https://www.anthropic.com/news/test'}]}]}]}
   self.assertEqual(m.source_urls(response),{URL,'https://www.anthropic.com/news/test'})
