@@ -1,7 +1,7 @@
 {
   "state": "failed",
-  "lastAttemptAt": "2026-11-01T13:24:29.172702+00:00",
+  "lastAttemptAt": "2026-11-01T13:26:56.269274+00:00",
   "lastSuccessAt": null,
   "schedule": "每日 08:00（台灣時間；執行時間可能延遲）",
-  "message": "Model API returned HTTP 400; no briefing was replaced"
+  "message": "Model API returned HTTP 429 (type=insufficient_quota, code=credit_balance_exhausted); no briefing was replaced"
 }
