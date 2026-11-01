@@ -1,0 +1,64 @@
+{
+  "edition": "2026-11-01",
+  "reviewedAt": "2026-11-01",
+  "reviewedTimePrecision": "date",
+  "timezone": "Asia/Taipei",
+  "refreshMode": "manual",
+  "buildStatus": "complete",
+  "coverage": "依本次試跑搜尋結果整理；未保留精確執行時間，無法重建精確的 24 小時起訖。",
+  "editions": [
+    {
+      "date": "2026-11-01",
+      "status": "quiet",
+      "message": "今日沒有足夠重要更新",
+      "note": "本次試跑未確認足夠符合條件的新消息。以下保留較早公告，供歷史追蹤；這不代表所有來源都沒有發布。"
+    }
+  ],
+  "articles": [
+    {
+      "id": "openai-training-preferences",
+      "vendor": "OpenAI",
+      "topic": "企業 AI 應用",
+      "date": "2026-10-30",
+      "title": "OpenAI 支援共用 AI 訓練偏好訊號",
+      "summary": "網站可透過共用 robots.txt 訊號，向參與廠商表達內容用於 AI 訓練的偏好。",
+      "why": "企業網站與內容管理團隊可追蹤此機制，評估未來的內容使用政策。",
+      "detail": "官方表示預計未來數月實作；既有爬蟲控制仍適用。這項公告不是已完成上線的通知。",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+      "source": "OpenAI 官方公告",
+      "evidence": "原始公告已查核",
+      "timing": "官方僅提供日期，未提供時間與時區。",
+      "status": "歷史公告"
+    },
+    {
+      "id": "factory-droid",
+      "vendor": "Factory",
+      "topic": "AI 工具工作流",
+      "date": "2026-10-29",
+      "title": "Factory 發布 Droid 1.0",
+      "summary": "Factory 官方新聞頁列出 Droid 1.0，定位為支援複雜專案與日常開發的新引擎。",
+      "why": "可作為企業評估程式開發代理工具的追蹤項目。",
+      "detail": "本次僅核對官方新聞頁的標題、日期與定位；未驗證效能數字，因此不呈現比較排名。",
+      "url": "https://factory.com/news",
+      "source": "Factory 官方新聞頁",
+      "evidence": "官方索引已查核",
+      "timing": "官方索引僅提供日期；連結導向新聞列表。",
+      "status": "歷史公告"
+    },
+    {
+      "id": "vercel-agent-desktop",
+      "vendor": "Vercel",
+      "topic": "AI 工具工作流",
+      "date": "2026-10-30",
+      "title": "agent-desktop 1.0.2 改善安裝與權限提示",
+      "summary": "官方更新紀錄列出啟動器提醒及 macOS 權限流程修正，屬既有工具的小版本更新。",
+      "why": "桌面代理的安裝與權限體驗，會影響企業測試及部署成本。",
+      "detail": "1.0.0 發布日為 10/27；1.0.2 為 10/30。未將媒體後續報導日期當成首次發布日期。",
+      "url": "https://github.com/vercel-labs/agent-desktop/blob/main/CHANGELOG.md",
+      "source": "Vercel Labs 官方變更紀錄",
+      "evidence": "版本紀錄已查核",
+      "timing": "版本紀錄僅提供日期，未提供時間與時區。",
+      "status": "歷史公告"
+    }
+  ]
+}

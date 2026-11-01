@@ -1,0 +1,17 @@
+import { build } from 'esbuild';
+import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
+let html=await readFile('src/template.html','utf8');
+const snapshot=JSON.parse(await readFile('data.json','utf8'));
+html=html.replace(/(<script id="snapshot" type="application\/json">)[\s\S]*?(<\/script>)/,(_,a,b)=>a+JSON.stringify(snapshot).replaceAll('</','<\\/')+b);
+const inline=html.match(/<script data-app>([\s\S]*?)<\/script>/);
+if(!inline) throw new Error('Missing application source');
+await mkdir('dist',{recursive:true});
+const config=JSON.parse(await readFile('config.json','utf8'));
+if(!config.publishableKey.startsWith('sb_publishable_'))throw new Error('Only publishable keys are allowed');
+const cloud=await readFile('cloud.js','utf8');
+const result=await build({stdin:{contents:"import { createClient } from '@supabase/supabase-js';\nconst CLOUD_CONFIG="+JSON.stringify(config)+";\n"+inline[1]+"\n"+cloud,resolveDir:process.cwd(),sourcefile:'app.js',loader:'js'},bundle:true,write:false,minify:true,format:'iife',target:['es2022'],platform:'browser',legalComments:'eof'});
+const script=result.outputFiles[0].text.replaceAll('</script','<\\/script');
+await writeFile('dist/index.html',html.replace(/<script data-app>[\s\S]*?<\/script>/,()=>'<script>'+script+'</script>'));
+await copyFile('.nojekyll','dist/.nojekyll');
+await copyFile('dist/index.html','index.html');
+console.log('Built self-contained dist/index.html with pinned Supabase client.');

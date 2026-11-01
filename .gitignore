@@ -1,0 +1,5 @@
+node_modules/
+.openai/
+*.zip
+.env*
+dist/mobile-preview.html
