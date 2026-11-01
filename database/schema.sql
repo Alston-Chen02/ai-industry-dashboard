@@ -1,4 +1,4 @@
--- For the new, dedicated AI SIGNAL project. Not currently applied.
+-- Applied to the dedicated AI Signal project fghxwiuetmhhfibohnav.
 -- The former table in the travel project was removed after confirming it was empty.
 create table public.ai_signal_bookmarks (
   user_id uuid not null references auth.users(id) on delete cascade,
@@ -7,7 +7,7 @@ create table public.ai_signal_bookmarks (
   primary key (user_id, article_id)
 );
 alter table public.ai_signal_bookmarks enable row level security;
-revoke all on public.ai_signal_bookmarks from anon;
+revoke all on public.ai_signal_bookmarks from public, anon, authenticated;
 grant select, insert, delete on public.ai_signal_bookmarks to authenticated;
 create policy ai_signal_bookmarks_select on public.ai_signal_bookmarks
 for select to authenticated using ((select auth.uid()) = user_id);

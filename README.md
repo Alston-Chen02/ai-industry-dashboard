@@ -2,32 +2,38 @@
 
 正式網站：https://alston-chen02.github.io/ai-industry-dashboard/
 
-## 移轉狀態
+## 專案層級
 
-使用者指定使用其他 Supabase Organization 建立獨立 AI SIGNAL 專案。目前僅能存取 Personal Travel 組織，等待新組織名稱與連線，以及該組織的建置費用確認。
+- Organization：Alston Workspace（既有 Pro 組織，原名 Personal Travel，ID kzcpumenstpgryivwfzy）。
+- Project：AI Signal（fghxwiuetmhhfibohnav），東京區 ap-northeast-1。
+- 原旅遊專案 Tokyo-family-travel-expenses 保留，不共用 AI Signal 的資料庫、Auth 使用者或 API 金鑰。
+- 新專案建立報價為 US$10/月的額外專案運算費，依原組織帳單計算；不另建立一份 Pro 訂閱。
 
-已將 `config.json` 設為 enabled:false；不建立 Supabase client、不發送登入或收藏請求。網站保留公開閱讀、分類/組織/日期/文字搜尋、來源查核、Markdown 匯出及手機導覽。右上角與收藏頁明確顯示登入服務建置中。
+## 登入與收藏
 
-旅遊專案的 ai_signal_bookmarks 表在確認為空後已移除，原旅遊資料表不受影響。Dashboard 回跳網址也需自旅遊專案移除；不更動其 Site URL 或其他回跳網址。
+公開情報不需登入。右上角「登入收藏」，或「已存訊號」頁面可登入。AI Signal 為全新獨立 Auth，第一次使用需點「第一次使用？建立帳戶」、驗證信箱後登入；原旅遊帳戶、GitHub 帳戶與 Supabase 後台帳戶不會自動變成 AI Signal 使用者。
 
-## 待接續
+收藏位於 public.ai_signal_bookmarks，RLS 限制每個帳戶只能讀寫自己的資料。匿名角色無存取權；authenticated 只授予 SELECT、INSERT、DELETE。登出會清除畫面資料，不刪除雲端收藏。同步失敗會提示重試並暫停修改。舊版本機收藏不會自動上傳，登入後可明確選擇匯入目前帳戶。
 
-1. 確認另一個 Organization 的名稱與存取權限。
-2. 依該組織實際費用報價，完成新專案建立確認。
-3. 建立獨立 AI SIGNAL 專案、套用 database/schema.sql、啟用 email auth、設定正式回跳網址。
-4. 將該專案 URL、publishable key 與 enabled:true 寫入 config.json；執行 npm run build。
-5. 部署後驗證登入、登出、雲端收藏與帳戶隔離。
+前端僅含 publishable key，不含 service_role、管理金鑰、資料庫密碼或使用者密碼。session storage key 依專案分開。
 
-## 程式與部署
+## 設定與部署
 
 Node 24。npm ci --ignore-scripts → npm run check → npm run build。
 
-src/template.html 是版型與頁面程式，cloud.js 是登入與私密收藏整合，data.json 為已查核消息。建置將固定版本 SDK 與程式內嵌到 dist/index.html，並同步根目錄 index.html。不使用 CDN，不包含 service_role 或管理金鑰。
+src/template.html：版型與主要互動；cloud.js：登入與雲端收藏；data.json：查核後消息；config.json：新專案 URL、publishable key 與 enabled:true。建置將固定版本 SDK 與程式內嵌至 dist/index.html，再同步根目錄 index.html。不依賴 CDN。
 
-GitHub Pages 由 .github/workflows/pages.yml 部署。前端公開；個人收藏未來由獨立 Supabase Auth 與 RLS 保護。登入後可明確選擇匯入先前本機收藏；不會自動將本機清單上傳至任何帳戶。
+GitHub Pages Source 為 GitHub Actions，.github/workflows/pages.yml 負責建置部署。新專案 Site URL 與 Redirect URLs 設為正式網站的精確網址（含尾端斜線）。旅遊專案曾加入的 AI 收藏表與回跳網址已移除，原旅遊資料與設定保留。
 
-## 驗證與資料範圍
+## 驗證
 
-已驗證手機版 390px 排版、篩選、來源檢視與登入視窗。移轉前收藏 RLS 已以兩個既有身分在 rollback-only 交易中驗證隔離、本人新增/刪除及禁止跨帳戶修改；無測試資料殘留。舊專案未成功登入任何新帳戶，不能宣稱完整端到端登入流程已通過。新專案建置後需重新驗證。
+- 固定依賴安裝、語法檢查與正式建置成功。
+- 新專案 Auth settings 回傳 email enabled、註冊開啟、必須驗證信箱。
+- 新專案匿名 Data API 讀取收藏回傳 401 / 42501。
+- 已於新專案使用 rollback-only 交易建立兩個無密碼的測試身分，驗證只能讀取自己的收藏、本人新增/刪除成功、跨帳戶新增被拒、跨帳戶刪除為零；交易回滾後使用者與收藏數皆為零。
+- 新專案安全顧問未回報警告。
+- 已檢查手機版排版、公開閱讀與登入視窗。全新專案沒有實際使用者；首次註冊的郵件傳遞、確認與跨裝置實際登入仍需使用者完成，未宣稱這部分端到端驗證通過。
 
-目前情報是 2026/11/01 試跑保留的三筆歷史官方公告；不是今日新訊或完整歷史資料。每日 08:00 搜尋、模型摘要與網站更新尚未啟用；現有 ChatGPT 排程也未與此網站連接。GitHub Actions 目前只部署網站。
+## 情報與後續更新
+
+目前情報來自 2026/11/01 試跑保留的三筆歷史官方公告，非當日新訊或完整歷史資料。每日 08:00 搜尋與模型摘要尚未啟用，現有 ChatGPT 排程尚未串接此站。GitHub Actions 目前僅部署網站。未來 API 金鑰應儲存於 Actions secrets 或後端，不可放入前端。
