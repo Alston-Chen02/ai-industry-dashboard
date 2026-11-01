@@ -13,6 +13,9 @@ def article(url=URL,event='new-event'):
 def old():
  return {'edition':'2026-10-31','reviewedAt':'2026-10-31','editions':[],'articles':[{'id':'preserved-bookmark-id','url':URL,'status':'歷史公告'}]}
 class RefreshTests(unittest.TestCase):
+ def test_search_sources_and_inline_citations(self):
+  response={'output':[{'type':'web_search_call','action':{'sources':[{'url':URL},{'url':'https://untrusted.example/article'}]}},{'type':'message','content':[{'type':'output_text','text':'research','annotations':[{'type':'url_citation','url':'https://www.anthropic.com/news/test'}]}]}]}
+  self.assertEqual(m.source_urls(response),{URL,'https://www.anthropic.com/news/test'})
  def test_timezone_qualified_metadata(self):
   self.assertEqual(m.original_timestamp(page('2026-11-01T08:30:00+08:00')),datetime(2026,11,1,0,30,tzinfo=timezone.utc))
  def test_date_only_is_not_exact_time(self):
