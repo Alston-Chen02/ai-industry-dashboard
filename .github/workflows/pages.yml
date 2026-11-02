@@ -21,6 +21,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+        with:
+          # A queued deploy must include snapshots saved by an earlier refresh.
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
