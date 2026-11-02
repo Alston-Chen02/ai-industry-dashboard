@@ -7,6 +7,8 @@ html=html.replace(/(<script id="snapshot" type="application\/json">)[\s\S]*?(<\/
 const inline=html.match(/<script data-app>([\s\S]*?)<\/script>/);
 if(!inline) throw new Error('Missing application source');
 await mkdir('dist',{recursive:true});
+// The notification feed and the page are generated from the same snapshot.
+await writeFile('dist/briefing.json', JSON.stringify(snapshot, null, 2)+'\n');
 const config=JSON.parse(await readFile('config.json','utf8'));
 if(config.enabled!==false&&!config.publishableKey.startsWith('sb_publishable_'))throw new Error('Only publishable keys are allowed');
 const cloud=await readFile('cloud.js','utf8');

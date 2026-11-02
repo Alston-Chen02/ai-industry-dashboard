@@ -24,7 +24,7 @@ GitHub Pages Source 為 GitHub Actions，.github/workflows/pages.yml 負責建�
 
 ## 每日情報更新
 
-`.github/workflows/refresh.yml` 每日台灣時間 08:00 執行，也可在 Actions → Refresh daily AI briefing → Run workflow 手動執行。GitHub 排程可能延遲。更新流程直接重新部署 Pages，不依賴機器人 commit 觸發另一份 workflow。
+`.github/workflows/refresh.yml` 每日台灣時間 07:30 執行，也可在 Actions → Refresh daily AI briefing → Run workflow 手動執行。GitHub 排程可能延遲。更新流程直接重新部署 Pages，不依賴機器人 commit 觸發另一份 workflow。
 
 在 Repository Settings → Secrets and variables → Actions → New repository secret 新增 `OPENAI_API_KEY`，值為可使用 Responses API 與網頁搜尋的 OpenAI API key。金鑰只提供給 Actions，不進前端、不寫入 repository。不需要另外接搜尋供應商；目前使用 Responses API 的 web_search。模型預設 `gpt-4.1-mini`，可用 Actions variable `OPENAI_MODEL` 覆寫為相容模型。API 呼叫依該 API 帳戶計費。
 
@@ -35,3 +35,11 @@ GitHub Pages Source 為 GitHub Actions，.github/workflows/pages.yml 負責建�
 已接入 OpenAI 官方 RSS（https://openai.com/news/rss.xml）與 Google 官方部落格 RSS（https://blog.google/rss/）；RSS 來源會明確標示，摘要依其標題與摘要整理。官方索引無法直連時會顯示搜尋範圍受限；每篇候選的原始時間檢核仍為必要條件。執行結果請見 Actions 與 refresh-status.json。
 
 本機驗證：`python3 -m unittest discover -s tests`、`npm run check`、`npm run build`。Python 測試使用合成資料，驗證來源、時間窗、去重、收藏 ID、無新訊與失敗保留資料，不呼叫真實 API。
+
+## 網站與每日通知共用資料
+
+建置同時輸出 `dist/index.html` 與 `dist/briefing.json`，兩者來自完全相同的 snapshot（含 refresh 狀態）。公開通知資料：https://alston-chen02.github.io/ai-industry-dashboard/briefing.json 。資料與網頁在同一次 Pages 部署發布，不以 main 分支檔案當作已上線的證明。
+
+網站 07:30 開始搜尋；既有 ChatGPT 每日摘要任務維持 08:00，改讀此公開 JSON，依當日期別的 articleIds 選文，保留原摘要、時間、連結與關注意義。若資料過期、當日更新失敗或尚未部署，通知明確提示，不另行搜尋產生不同版本。GitHub 排程可能延遲，07:30 是預定開始時間，不保證完成時間。修改 refresh workflow 時會立即試跑一次。
+
+驗證共用資料：`node scripts/verify_briefing.mjs`（建置後）。

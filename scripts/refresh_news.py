@@ -290,7 +290,7 @@ def apply_edition(old,accepted,now,coverage):
 def write_status(state,now,**fields):
     status_path=ROOT/'refresh-status.json'
     status=json.loads(status_path.read_text()) if status_path.exists() else {}
-    status.update({'state':state,'lastAttemptAt':now.isoformat(),'schedule':'每日 08:00（台灣時間；執行時間可能延遲）',**fields})
+    status.update({'state':state,'lastAttemptAt':now.isoformat(),'schedule':'每日 07:30（台灣時間；執行時間可能延遲）',**fields})
     status_path.write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n')
 
 def main():
