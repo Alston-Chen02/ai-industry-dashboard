@@ -43,3 +43,5 @@ GitHub Pages Source 為 GitHub Actions，.github/workflows/pages.yml 負責建�
 網站 07:30 開始搜尋；既有 ChatGPT 每日摘要任務維持 08:00，改讀此公開 JSON，依當日期別的 articleIds 選文，保留原摘要、時間、連結與關注意義。若資料過期、當日更新失敗或尚未部署，通知明確提示，不另行搜尋產生不同版本。GitHub 排程可能延遲，07:30 是預定開始時間，不保證完成時間。修改 refresh workflow 時會立即試跑一次。
 
 驗證共用資料：`node scripts/verify_briefing.mjs`（建置後）。
+
+新聞補充來源：THE DECODER RSS 與 The Verge AI Atom，採發布者提供的含時區時間，並保留媒體報導與產品首發時間的區別；不放寬 24 小時檢核。首頁在本期無新訊時預設展示已收錄公告，保留歷史標示與本期零收錄提示。

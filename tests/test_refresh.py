@@ -33,6 +33,24 @@ class RefreshTests(unittest.TestCase):
   xml='<rss><channel><item><title>Original news</title><link>'+URL+'</link><pubDate>Sun, 01 Nov 2026 00:30:00 GMT</pubDate><description>Publisher summary</description></item><item><link>https://www.anthropic.com/news/other</link><pubDate>Sun, 01 Nov 2026 00:30:00 GMT</pubDate></item><item><link>'+URL+'</link><pubDate>2026-11-01</pubDate></item></channel></rss>'
   entries=m.parse_official_feed(xml,m.FEEDS[0])
   self.assertEqual(len(entries),1);self.assertEqual(entries[0][0],URL);self.assertEqual(m.original_timestamp(entries[0][1]),datetime(2026,11,1,0,30,tzinfo=timezone.utc))
+ def test_media_atom_preserves_published_time_not_updated_time(self):
+  xml='<feed xmlns="http://www.w3.org/2005/Atom"><entry><title>AI workflow update</title><link href="https://www.theverge.com/ai/test"/><published>2026-11-01T00:30:00Z</published><updated>2026-11-02T00:30:00Z</updated><summary>Publisher report</summary></entry></feed>'
+  entries=m.parse_official_feed(xml,'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml')
+  self.assertEqual(len(entries),1)
+  self.assertEqual(m.original_timestamp(entries[0][1]),datetime(2026,11,1,0,30,tzinfo=timezone.utc))
+ def test_recent_media_feed_reaches_summary_and_validation(self):
+  url='https://the-decoder.com/workflow-update'
+  research={'output':[{'type':'web_search_call','status':'completed','action':{'sources':[{'url':URL}]}}]}
+  xml='<rss><channel><item><title>AI workflow update</title><link>'+url+'</link><pubDate>Sun, 01 Nov 2026 00:30:00 GMT</pubDate><description>Publisher report</description></item></channel></rss>'
+  def fetch(u,**kwargs):
+   if u=='https://the-decoder.com/feed/':return u,xml
+   raise m.RefreshError('Source unavailable')
+  summary={'output':[{'content':[{'type':'output_text','text':json.dumps({'articles':[article(url)]})}]}]}
+  with patch.object(m,'call_api',side_effect=[research,summary]),patch.object(m,'get_page',side_effect=fetch):
+   result,sources=m.discover('unit-test-placeholder',NOW)
+  accepted,rejected=m.validate_candidates(result['articles'],sources,NOW,fetch=lambda u:result['_pages'][u])
+  self.assertEqual(len(accepted),1);self.assertEqual(rejected,[])
+  self.assertEqual(result['_feed_provenance'][url],'https://the-decoder.com/feed/')
  def test_rss_old_news_can_establish_empty_edition_when_article_pages_unavailable(self):
   research={'status':'completed','output':[{'type':'web_search_call','status':'completed','action':{'sources':[{'url':URL}]}}]}
   xml='<rss><channel><item><title>Older news</title><link>'+URL+'</link><pubDate>Fri, 30 Oct 2026 00:30:00 GMT</pubDate></item></channel></rss>'

@@ -13,9 +13,9 @@ from zoneinfo import ZoneInfo
 
 ROOT=Path(__file__).resolve().parents[1]
 TOPICS=['生成式 AI 產品發布','企業 AI 應用','AI 工具工作流']
-DOMAINS=['openai.com','anthropic.com','deepmind.google','blog.google','microsoft.com','github.com','vercel.com','factory.com','techcrunch.com','reuters.com','theverge.com','engadget.com']
+DOMAINS=['openai.com','anthropic.com','deepmind.google','blog.google','microsoft.com','github.com','vercel.com','factory.com','techcrunch.com','reuters.com','theverge.com','engadget.com','the-decoder.com']
 OFFICIAL={'OpenAI':'https://openai.com/news/','Anthropic':'https://www.anthropic.com/news','Google DeepMind':'https://deepmind.google/blog/'}
-FEEDS=['https://openai.com/news/rss.xml','https://blog.google/rss/']
+FEEDS=['https://openai.com/news/rss.xml','https://blog.google/rss/','https://the-decoder.com/feed/','https://www.theverge.com/rss/ai-artificial-intelligence/index.xml']
 TAIPEI=ZoneInfo('Asia/Taipei')
 MAX_PAGE=2_000_000
 class RefreshError(Exception): pass
@@ -317,13 +317,13 @@ def main():
         for article in accepted:
             feed=result.get('_feed_provenance',{}).get(article['url'])
             if feed:
-                article.update(evidence='AI 整理・官方 RSS 時間核對',timing='發布時間依發布者官方 RSS（含時區）核對；原文：'+feed,detail='AI 摘要依官方 RSS 的標題與摘要整理，未經人工逐則審閱；可開啟原始來源查證。')
+                article.update(evidence='AI 整理・發布者 RSS 時間核對',timing='報導發布時間依發布者 RSS（含時區）核對；來源：'+feed,detail='AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。')
         print('Candidate exclusions: '+json.dumps(dict(Counter(rejected)),sort_keys=True))
         inspection=result.get('inspection',{})
         if result['articles'] and not accepted:raise RefreshError('All candidates failed original-source or publication-time verification')
-        coverage=f'搜尋與官方 RSS 取得 {len(sources)} 項可信網域來源；優先官方索引可直連 {len(checked)}/3。'+(' 無法直連：'+'、'.join(unavailable)+'；搜尋涵蓋有限，不代表完整產業動態。' if unavailable else '')+'收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。'+(f' {len(rejected)} 筆候選未通過檢核。' if rejected else '')
+        coverage=f'搜尋與發布者 RSS 取得 {len(sources)} 項可信網域來源；優先官方索引可直連 {len(checked)}/3。'+(' 無法直連：'+'、'.join(unavailable)+'；搜尋涵蓋有限，不代表完整產業動態。' if unavailable else '')+'收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。'+(f' {len(rejected)} 筆候選未通過檢核。' if rejected else '')
         if inspection:
-            coverage+=f" 來源時間檢核 {inspection['checked']} 項（含官方 RSS）：24 小時內 {inspection['recent']}、較早 {inspection['old']}、未來 {inspection['future']}、時間不明 {inspection['date_unverified']}、無法讀取 {inspection['unavailable']}；另有 {inspection['not_inspected']} 頁未檢核；官方 RSS 可讀 {inspection.get('feeds_available',0)}/{len(FEEDS)}。"
+            coverage+=f" 來源時間檢核 {inspection['checked']} 項（含發布者 RSS）：24 小時內 {inspection['recent']}、較早 {inspection['old']}、未來 {inspection['future']}、時間不明 {inspection['date_unverified']}、無法讀取 {inspection['unavailable']}；另有 {inspection['not_inspected']} 頁未檢核；發布者 RSS 可讀 {inspection.get('feeds_available',0)}/{len(FEEDS)}。"
         limited=bool(unavailable or any(inspection.get(k,0) for k in ('date_unverified','unavailable','not_inspected','future','feeds_unavailable')))
         old=json.loads((ROOT/'data.json').read_text());updated=apply_edition(old,accepted,now,coverage);updated['coverageLimited']=limited
         (ROOT/'data.json').write_text(json.dumps(updated,ensure_ascii=False,indent=2)+'\n')
