@@ -1,12 +1,29 @@
 {
-  "edition": "2026-11-02",
-  "reviewedAt": "2026-11-02T00:29:23.299532+00:00",
+  "edition": "2026-11-03",
+  "reviewedAt": "2026-11-03T03:58:28.905713+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 150 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 6、較早 138、未來 0、時間不明 1、無法讀取 7；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 1 筆候選未通過檢核。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 17、較早 125、未來 0、時間不明 1、無法讀取 9；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-03",
+      "status": "ready",
+      "message": "本期收錄 6 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 1 筆候選未通過檢核。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 17、較早 125、未來 0、時間不明 1、無法讀取 9；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-896ea6e6a603f203cbe1",
+        "news-41428049768d3d3f0fbc",
+        "news-565e6fad1f4c3724a211",
+        "news-bca108e4c77bd86b238b",
+        "news-0d297090385ad5a72451",
+        "news-a5ec1de84c4f7884b78a"
+      ],
+      "windowStart": "2026-11-02T03:58:28.905713+00:00",
+      "windowEnd": "2026-11-03T03:58:28.905713+00:00",
+      "updatedAt": "2026-11-03T03:58:28.905713+00:00"
+    },
     {
       "date": "2026-11-02",
       "status": "ready",
@@ -96,7 +113,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -113,7 +130,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -130,7 +147,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -147,7 +164,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -164,7 +181,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -178,6 +195,108 @@
       "date": "2026-11-01",
       "publishedAt": "2026-11-01T09:51:06+00:00",
       "eventKey": "openai-chatgpt-chat-work-merger",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "高盛限制交易員、銀行家使用Claude Code和Copilot編碼工具",
+      "summary": "高盛將Claude Code和GitHub Copilot等AI編碼工具從交易員和銀行家手中撤回，僅",
+      "why": "此政策反映金融業對非工程師使用AI開發工具的風險與生產力管理考量，影響企業對AI工具應用的職務劃分。",
+      "source": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers",
+      "topic": "企業 AI 應用",
+      "id": "news-896ea6e6a603f203cbe1",
+      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers",
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-02T20:00:03+00:00",
+      "eventKey": "goldman_ai_tool_restriction",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "SpaceXSI降載Grok Bot使用配額因成本過高",
+      "summary": "SpaceXSI於Elon Musk稱其為最快增長產品後數週，調降Grok Bot AI代理服務配額",
+      "why": "顯示AI服務高成本挑戰，企業需平衡增長與可持續經營，影響AI產品定價與資源分配策略。",
+      "source": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+      "topic": "企業 AI 應用",
+      "id": "news-41428049768d3d3f0fbc",
+      "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product",
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-02T18:15:39+00:00",
+      "eventKey": "spacexsi_grok_bot_quota_cut",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "OpenAI推出數據中心電力保護計劃保障地方供電",
+      "summary": "OpenAI在佐治亞州新建數據中心試點\"Grid Protectors Program\"，能於極端天",
+      "why": "此計劃提升AI基礎設施對電網安全的貢獻，對企業設置大型數據中心及地方應急能力具長遠戰略意義。",
+      "source": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "topic": "企業 AI 應用",
+      "id": "news-565e6fad1f4c3724a211",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-02T18:01:30+00:00",
+      "eventKey": "openai_grid_protection_program",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI加碼漏洞懸賞獎金以強化安全防護",
+      "summary": "OpenAI提升安全漏洞懸賞金額並引入品質、忠誠及優先活動獎勵，鼓勵獨立資安研",
+      "why": "強化安全漏洞回報機制，促進企業AI產品安全性提升與風險管理，保障用戶資安。",
+      "source": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "topic": "AI 工具工作流",
+      "id": "news-bca108e4c77bd86b238b",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-02T18:00:00+00:00",
+      "eventKey": "openai_enhanced_bug_bounties",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI啟動與Cathedral Systems合作安全衝刺專案",
+      "summary": "OpenAI正與Cathedral Systems合作，運用AI技術測試及加固企業系統安全防護",
+      "why": "顯示企業重視AI技術在加強自身安全防禦的應用，提升AI系統抗攻擊能力及穩定度。",
+      "source": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "topic": "AI 工具工作流",
+      "id": "news-0d297090385ad5a72451",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-02T18:00:00+00:00",
+      "eventKey": "openai_security_sprint",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "AI代理群在Minecraft中自創協作規範與分工角色",
+      "summary": "50個OpenAI GPT-6.1 Sol模型AI代理在Minecraft模擬夜間場景中，展現複雜組",
+      "why": "此研究展示AI代理間多代理系統協作機制，對未來AI群體管理與自治系統設計具有啟示。",
+      "source": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
+      "topic": "AI 工具工作流",
+      "id": "news-a5ec1de84c4f7884b78a",
+      "url": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts",
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T15:42:27+00:00",
+      "eventKey": "minecraft_ai_agent_collaboration",
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
