@@ -1,12 +1,31 @@
 {
-  "edition": "2026-11-03",
-  "reviewedAt": "2026-11-03T03:58:28.905713+00:00",
+  "edition": "2026-11-04",
+  "reviewedAt": "2026-11-04T03:06:24.893577+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 1 筆候選未通過檢核。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 17、較早 125、未來 0、時間不明 1、無法讀取 9；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 150 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 151 項（含發布者 RSS）：24 小時內 29、較早 113、未來 0、時間不明 0、無法讀取 9；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-04",
+      "status": "ready",
+      "message": "本期收錄 8 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 150 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 151 項（含發布者 RSS）：24 小時內 29、較早 113、未來 0、時間不明 0、無法讀取 9；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-7ae7ecb0a3914f399212",
+        "news-92c50f67a507db6c8047",
+        "news-ec51e351ec2747a241f3",
+        "news-2a746fdcd099abae656f",
+        "news-6fe6a303173635ba07f5",
+        "news-c968c83100b75a67cad3",
+        "news-c01265aacc1a10af6e56",
+        "news-3d8dcd9da9a1edd068b1"
+      ],
+      "windowStart": "2026-11-03T03:06:24.893577+00:00",
+      "windowEnd": "2026-11-04T03:06:24.893577+00:00",
+      "updatedAt": "2026-11-04T03:06:24.893577+00:00"
+    },
     {
       "date": "2026-11-03",
       "status": "ready",
@@ -215,7 +234,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -232,7 +251,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -249,7 +268,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "OpenAI",
@@ -266,7 +285,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "OpenAI",
@@ -283,7 +302,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -300,6 +319,142 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI GPT-6 Astra一週內完成硬體設計",
+      "summary": "OpenAI團隊運用GPT-6 Astra在不到一週時間內設計出完整硬體方案，包含外殼、電路板與韌體",
+      "why": "顯示大型語言模型在硬體工程設計上的實務應用能力，可助企業快速原型與產品開發",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-7ae7ecb0a3914f399212",
+      "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week",
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-03T20:15:45+00:00",
+      "eventKey": "openai_gpt6_hardware_design",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Nexus Mods 新增AI使用揭露義務",
+      "summary": "PC遊戲模組平台要求新上傳模組必須透明公開是否運用AI技術製作",
+      "why": "此規定提升AI內容透明度，有助於內容評估與版權管理，對遊戲擴充內容市場具影響",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-92c50f67a507db6c8047",
+      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T00:42:10+00:00",
+      "eventKey": "nexus_mods_ai_disclosure_policy",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Apple Siri開放AI功能整合第三方App",
+      "summary": "iOS 27.3更新後，Siri AI可跨第三方App操作，使用個人情境與自然語言處理",
+      "why": "提升語音助理的跨App整合能力，優化用戶體驗與應用場景，可帶動更多開發商合作",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-ec51e351ec2747a241f3",
+      "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-03T20:16:17+00:00",
+      "eventKey": "apple_siri_third_party_integration",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "ChatGPT搜尋量達Google約20%",
+      "summary": "OpenAI宣稱ChatGPT每日搜尋請求量已達Google搜尋的五分之一",
+      "why": "顯示生成式AI搜尋日益受企業與用戶採用，可能帶動搜尋引擎策略轉變與市場競爭",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-2a746fdcd099abae656f",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-03T18:30:42+00:00",
+      "eventKey": "openai_chatgpt_search_volume",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "SETI採用AI代理分析外星電波訊號",
+      "summary": "SETI Allen Telescope Array利用AI代理執行望遠鏡控制與即時電波訊號分析，縮",
+      "why": "AI技術顯著加速天文訊號分析流程，有助科學研究效率與觀測成果即時性",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-6fe6a303173635ba07f5",
+      "url": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence",
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-03T16:51:18+00:00",
+      "eventKey": "seti_ai_signal_analysis",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Netflix推AI主題推薦新標籤",
+      "summary": "Netflix TV App新增「AI Discover」標籤，根據用戶喜好提供主題式影片推薦",
+      "why": "利用AI精準推薦促進用戶觀看時間增加，有助訂閱者維繫與內容發現",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-c968c83100b75a67cad3",
+      "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-03T18:00:00+00:00",
+      "eventKey": "netflix_ai_thematic_recommendations",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Google在校園封鎖搜尋AI功能",
+      "summary": "Google宣布不提供拒絕AI功能的學校學生帳號使用Gemini與搜尋AI服務",
+      "why": "反映教育領域AI導入的政策矛盾，影響學校對生成式AI服務的採用與推廣策略",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-c01265aacc1a10af6e56",
+      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-03T17:00:04+00:00",
+      "eventKey": "google_disable_search_ai_in_schools",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Apple Watch新增永續語音環境偵測功能",
+      "summary": "watchOS 27.3測試版導入Audio Intelligence，包括Siri Recap與實",
+      "why": "提升穿戴裝置在語音交互與資訊回顧的智慧體驗，強化用戶生活應用場景",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-3d8dcd9da9a1edd068b1",
+      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-03T18:31:00+00:00",
+      "eventKey": "apple_watch_audio_intelligence",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
       "status": "本期新訊"
     }
   ],
