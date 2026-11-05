@@ -1,12 +1,30 @@
 {
-  "edition": "2026-11-04",
-  "reviewedAt": "2026-11-04T03:06:24.893577+00:00",
+  "edition": "2026-11-05",
+  "reviewedAt": "2026-11-05T03:36:35.617479+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 150 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 151 項（含發布者 RSS）：24 小時內 29、較早 113、未來 0、時間不明 0、無法讀取 9；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 148 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 150 項（含發布者 RSS）：24 小時內 24、較早 117、未來 0、時間不明 1、無法讀取 8；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-05",
+      "status": "ready",
+      "message": "本期收錄 7 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 148 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 150 項（含發布者 RSS）：24 小時內 24、較早 117、未來 0、時間不明 1、無法讀取 8；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-b531b56f4ce7687d64ce",
+        "news-6f4b50073285632d3fbb",
+        "news-60b49bd40bcd399c98d5",
+        "news-d0f2a395159386e7b511",
+        "news-97689e4470033f7c3c03",
+        "news-56101ee27feec7039fe1",
+        "news-349d9de22e6e7330019c"
+      ],
+      "windowStart": "2026-11-04T03:36:35.617479+00:00",
+      "windowEnd": "2026-11-05T03:36:35.617479+00:00",
+      "updatedAt": "2026-11-05T03:36:35.617479+00:00"
+    },
     {
       "date": "2026-11-04",
       "status": "ready",
@@ -336,7 +354,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -353,7 +371,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -370,7 +388,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -387,7 +405,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -404,7 +422,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -421,7 +439,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -438,7 +456,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -455,6 +473,125 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Qualcomm擴展AI數據中心業務因手機銷量下滑",
+      "summary": "Qualcomm因智能手機銷量下降20%，策略轉向AI數據中心，與Amazon及Meta合作以拓展業",
+      "why": "手機市場疲軟，AI數據中心成企業收入新動能，具長期成長性",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-b531b56f4ce7687d64ce",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-04T22:42:15+00:00",
+      "eventKey": "qualcomm-ai-datacenter-expansion",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI收購Pierre Computer強化AI程式碼代理能力",
+      "summary": "OpenAI併購提供核心函式庫的Pierre Computer，結合Git後端Pando，支持AI開",
+      "why": "提升AI與開發者協作效率，加強AI程式碼代理生態",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-6f4b50073285632d3fbb",
+      "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents",
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-04T18:41:03+00:00",
+      "eventKey": "openai-acquires-pierre-git-coding",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "ChatGPT新增將文字與照片轉GIF動畫功能",
+      "summary": "OpenAI推Images 2.6模型，ChatGPT可從提示或圖片製作GIF，調整幀速及編輯幀",
+      "why": "提升多媒體創作自動化，可應用於市場行銷與內容產出",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-60b49bd40bcd399c98d5",
+      "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model",
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-04T19:44:20+00:00",
+      "eventKey": "chatgpt-animated-gif-feature",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic舊版Claude水印易被API參數繞過",
+      "summary": "在EU AI法規前夕，Anthropic擴展水印功能，惟舊模型可透過改變采樣參數禁用",
+      "why": "安全合規挑戰，影響商業部署，可促使更新模型策略",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-d0f2a395159386e7b511",
+      "url": "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models",
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-04T19:03:55+00:00",
+      "eventKey": "anthropic-claude-watermark-bypass",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "AT&T智能家居安全整合Gemini AI助理",
+      "summary": "AT&T Connected Life系統接入Gemini，提供居家事件摘要與影像搜尋功能",
+      "why": "智能家居安全結合AI增強用戶管理與監控效率",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-97689e4470033f7c3c03",
+      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-04T20:23:24+00:00",
+      "eventKey": "att-gemini-home-integration",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Nothing公司預告將推首款無屏幕AI裝置",
+      "summary": "Nothing執行長Pei透露即將在12月推出首款聚焦AI的無螢幕裝置，細節尚未公開",
+      "why": "拓展AI硬體新品類，推動AI原生設備發展",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-56101ee27feec7039fe1",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-04T18:26:07+00:00",
+      "eventKey": "nothing-screenless-ai-device",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "雲端運維AI開源基準測試發現推理能力瓶頸",
+      "summary": "CloudOpsBench評估AI代理在雲端DevOps任務的表現，推理為主要限制因素",
+      "why": "指引企業優化AI自動化雲運維系統發展方向",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-349d9de22e6e7330019c",
+      "url": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations",
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-04T16:42:52+00:00",
+      "eventKey": "cloudopsbench-ai-reasoning-bottleneck",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
       "status": "本期新訊"
     }
   ],
