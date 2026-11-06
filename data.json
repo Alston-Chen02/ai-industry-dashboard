@@ -1,12 +1,31 @@
 {
-  "edition": "2026-11-05",
-  "reviewedAt": "2026-11-05T03:36:35.617479+00:00",
+  "edition": "2026-11-06",
+  "reviewedAt": "2026-11-06T03:30:42.046562+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 148 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 150 項（含發布者 RSS）：24 小時內 24、較早 117、未來 0、時間不明 1、無法讀取 8；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 164 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 164 項（含發布者 RSS）：24 小時內 29、較早 131、未來 0、時間不明 1、無法讀取 3；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-06",
+      "status": "ready",
+      "message": "本期收錄 8 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 164 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 164 項（含發布者 RSS）：24 小時內 29、較早 131、未來 0、時間不明 1、無法讀取 3；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-ad929875c5a71925cbce",
+        "news-8b33f1382f19de19bb66",
+        "news-2165b65a40c289be1bb3",
+        "news-df9d4138a6f415f7dc55",
+        "news-b2e861cf858b7f41178a",
+        "news-bcea566fc08fba9bba93",
+        "news-e6d6c85b3eb3fa4e89ea",
+        "news-15a4a0dba5d008a67822"
+      ],
+      "windowStart": "2026-11-05T03:30:42.046562+00:00",
+      "windowEnd": "2026-11-06T03:30:42.046562+00:00",
+      "updatedAt": "2026-11-06T03:30:42.046562+00:00"
+    },
     {
       "date": "2026-11-05",
       "status": "ready",
@@ -490,7 +509,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -507,7 +526,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -524,7 +543,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -541,7 +560,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -558,7 +577,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -575,7 +594,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -589,6 +608,142 @@
       "date": "2026-11-05",
       "publishedAt": "2026-11-04T16:42:52+00:00",
       "eventKey": "cloudopsbench-ai-reasoning-bottleneck",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "OpenAI資料中心專案不再使用官員NDA",
+      "summary": "OpenAI宣布，在面對社區反對資料中心擴張後，不再與公共官員使用非披露協議，加強透明度。",
+      "why": "此舉提升資料中心建設透明度，影響社區參與和公司合規政策。",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-ad929875c5a71925cbce",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T00:37:56+00:00",
+      "eventKey": "openai_datacenter_nda_policy",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Airbnb計劃2027年推AI旅遊代理",
+      "summary": "Airbnb公告將於2027上半年推出AI代理協助用戶計劃與預訂旅遊行程，提升旅遊體驗。",
+      "why": "結合AI智能助理優化用戶旅遊規劃，擴大企業服務能力。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-8b33f1382f19de19bb66",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T00:06:12+00:00",
+      "eventKey": "airbnb_ai_travel_agent",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Perplexity發布工作用多角色AI代理「Teammates」",
+      "summary": "Perplexity推多角色工作AI代理，可連接既有專案和記憶體，提升辦公效率。",
+      "why": "強化協作和自動化，促進工作流程中的AI整合。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-2165b65a40c289be1bb3",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-05T22:26:50+00:00",
+      "eventKey": "perplexity_teammates_launch",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI GPT-6 Cyber能主動找漏洞並建議修補",
+      "summary": "GPT-6 Cyber具備入侵與漏洞偵測雙重功能，已識別多項軟體安全缺陷。",
+      "why": "安全測試自動化新利器，有助企業強化資安防護。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-df9d4138a6f415f7dc55",
+      "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-05T20:36:25+00:00",
+      "eventKey": "openai_gpt6_cyber_security",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Google Gemini Omni 1.2 Flash升級可生成15秒AI影片",
+      "summary": "Google DeepMind推出新版影片生成模型，延長影像時長並降價30％，支援編輯對話。",
+      "why": "影音生成成本與功能提升，有利內容創作者和企業使用。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-b2e861cf858b7f41178a",
+      "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-05T19:05:31+00:00",
+      "eventKey": "google_gemini_omni1_2_flash",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Meta Muse增加語音互動功能",
+      "summary": "Meta Muse AI代理新增即時語音對話模式，並搭配可動態表情化身。",
+      "why": "改進用戶互動體驗，助力虛擬助手及數位形象應用。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-bcea566fc08fba9bba93",
+      "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-05T19:03:04+00:00",
+      "eventKey": "meta_muse_voice_interaction",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Anthropic Claude支持連接銀行帳戶管理財務",
+      "summary": "Anthropic推個人財務功能，Claude能透過Plaid連接銀行卡，提供收支概覽。",
+      "why": "金融AI助理能提升用戶理財便利性，擴展AI應用場景。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-e6d6c85b3eb3fa4e89ea",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-05T18:00:00+00:00",
+      "eventKey": "anthropic_claude_plaid_finance",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "百度開源ERNIE 5.5 Flash Base模型",
+      "summary": "百度發布擁有2800億參數的MoE基礎模型，未經微調讓開發者自主發揮。",
+      "why": "大型開源基礎模型促進多元應用與開發生態。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-15a4a0dba5d008a67822",
+      "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-05T17:56:41+00:00",
+      "eventKey": "baidu_ernie_5_5_flash_base",
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
