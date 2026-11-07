@@ -1,12 +1,31 @@
 {
-  "edition": "2026-11-06",
-  "reviewedAt": "2026-11-06T03:30:42.046562+00:00",
+  "edition": "2026-11-07",
+  "reviewedAt": "2026-11-07T02:59:40.369067+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 164 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 164 項（含發布者 RSS）：24 小時內 29、較早 131、未來 0、時間不明 1、無法讀取 3；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 150 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 17、較早 128、未來 0、時間不明 1、無法讀取 6；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-07",
+      "status": "ready",
+      "message": "本期收錄 8 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 150 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 17、較早 128、未來 0、時間不明 1、無法讀取 6；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-6c7191a9daddd0328837",
+        "news-9aeac73058ac351bd96e",
+        "news-1ea22a0b0b5d1f6ce1b7",
+        "news-6065749cda2c48991512",
+        "news-58fc9a0b8ae1b3286a1e",
+        "news-f6d9f5c37e59695a8614",
+        "news-807dcbdee52288c30243",
+        "news-51872e89890c6332b9ad"
+      ],
+      "windowStart": "2026-11-06T02:59:40.369067+00:00",
+      "windowEnd": "2026-11-07T02:59:40.369067+00:00",
+      "updatedAt": "2026-11-07T02:59:40.369067+00:00"
+    },
     {
       "date": "2026-11-06",
       "status": "ready",
@@ -628,7 +647,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -645,7 +664,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -662,7 +681,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -679,7 +698,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -696,7 +715,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -713,7 +732,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -730,7 +749,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -747,6 +766,142 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "OpenAI估值升至1.25兆美元，完成110億美元新一輪融资",
+      "summary": "OpenAI最新一輪融資募得110億美元，估值提升至1.25兆美元，領先行業並吸引頂級投資者聚焦。",
+      "why": "顯示AI企業持續獲得巨額資本投入，有助加速新產品研發與商業化。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-6c7191a9daddd0328837",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-06T23:46:18+00:00",
+      "eventKey": "openai_1_25t_funding",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Meta Muse AI推出客製化互動應用空間功能",
+      "summary": "Meta Muse AI新增「spaces」功能，用戶可自建專屬購物、學習、遊戲等AI助理空間，強化",
+      "why": "提升使用體驗與工作流整合，方便企業與用戶打造多元AI應用服務。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-9aeac73058ac351bd96e",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-06T18:10:10+00:00",
+      "eventKey": "meta_muse_ai_spaces",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Perplexity推出Always-on持續運行AI代理服務",
+      "summary": "Perplexity發布「Teammates」Always-on AI代理，支持自動化專案管理，月費",
+      "why": "企業可利用持續監控與自動執行，提高AI工作流效率，強化產出品質。",
+      "source": "The Decoder",
+      "topic": "AI 工具工作流",
+      "id": "news-1ea22a0b0b5d1f6ce1b7",
+      "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-06T16:47:28+00:00",
+      "eventKey": "perplexity_always_on_agent",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Ripple-65B開源美國語言模型達成頂尖編碼表現",
+      "summary": "Ricursive Intelligence發布65億參數的Ripple-65B，為完全Apache",
+      "why": "推動開源模型社群發展，提供企業成本較低的程式碼生成AI方案。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-6065749cda2c48991512",
+      "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-06T19:47:04+00:00",
+      "eventKey": "ripple_65b_open_model",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "亞馬遜Alexa新增短信購物功能",
+      "summary": "用戶可透過短信描述商品或上傳照片，Alexa智能搜索並回覆購物建議，簡化線上採購流程。",
+      "why": "提升用戶與智能助理的互動方便性，推動語音助理於電商場景之落地應用。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-58fc9a0b8ae1b3286a1e",
+      "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T14:00:00+00:00",
+      "eventKey": "amazon_alexa_text_shopping",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "非營利機構METR分析Anthropic AI研究進度加速",
+      "summary": "Anthropic自由公開研發數據顯示，AI模型開發速度倍增，約80%提升來自AI輔助研究工具。",
+      "why": "反映AI研發效率提升趨勢，帶動競爭形態與創新節奏改變。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-f6d9f5c37e59695a8614",
+      "url": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T13:40:07+00:00",
+      "eventKey": "metr_anthropic_acceleration",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "多位AI核心創始人離開Neolabs創建新實驗室",
+      "summary": "OpenAI、DeepMind、Meta等開發者離職成立新創實驗室，專注突破現有限制，尋求AGI新路",
+      "why": "反映AI產業多元創新趨勢，未來可能帶來新技術與應用。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-807dcbdee52288c30243",
+      "url": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T15:55:23+00:00",
+      "eventKey": "neolabs_founders_departure",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "inMusic集團支持Akai與Moog音樂設備社群Mod開發",
+      "summary": "inMusic宣布將提供工具包與解構資料，讓社群能夠修改Akai、Moog等音樂硬體軟體功能。",
+      "why": "促進硬體設備客製化與創新，有助音樂軟硬體生態系發展。",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-51872e89890c6332b9ad",
+      "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-06T16:34:39+00:00",
+      "eventKey": "inmusic_akai_moog_modding",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
       "status": "本期新訊"
     }
   ],
