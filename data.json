@@ -1,12 +1,31 @@
 {
-  "edition": "2026-11-07",
-  "reviewedAt": "2026-11-07T02:59:40.369067+00:00",
+  "edition": "2026-11-08",
+  "reviewedAt": "2026-11-08T02:38:11.092709+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 150 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 17、較早 128、未來 0、時間不明 1、無法讀取 6；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 162 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 162 項（含發布者 RSS）：24 小時內 12、較早 134、未來 0、時間不明 2、無法讀取 14；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-08",
+      "status": "ready",
+      "message": "本期收錄 8 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 162 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 162 項（含發布者 RSS）：24 小時內 12、較早 134、未來 0、時間不明 2、無法讀取 14；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-9b2b98b397f0c161a4c4",
+        "news-9d4df9d6340e650e4955",
+        "news-84a90cf43a8e57ada4db",
+        "news-8a91768345ba8d740d1d",
+        "news-d52e5a21fca3a5ed7e69",
+        "news-95a6adf3fa16115df574",
+        "news-7e973ee05646ee77bbea",
+        "news-3acf6350460e84c960b8"
+      ],
+      "windowStart": "2026-11-07T02:38:11.092709+00:00",
+      "windowEnd": "2026-11-08T02:38:11.092709+00:00",
+      "updatedAt": "2026-11-08T02:38:11.092709+00:00"
+    },
     {
       "date": "2026-11-07",
       "status": "ready",
@@ -783,7 +802,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -800,7 +819,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -817,7 +836,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -834,7 +853,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -851,7 +870,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -868,7 +887,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -885,7 +904,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -902,6 +921,142 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic感恩節前IPO估值下調至1.25兆美元",
+      "summary": "Anthropic計劃於感恩節前公開上市，調低估值至1.25至1.75兆美元，目標募資80至1000",
+      "why": "此舉顯示大型生成式AI開發者在資本市場的策略調整與資金需求趨勢，影響AI產業資金流動。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-9b2b98b397f0c161a4c4",
+      "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation",
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-07T17:37:25+00:00",
+      "eventKey": "anthropic_pre_thanksgiving_ipo",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI獲得110億美元融資，估值達1.25兆美元",
+      "summary": "OpenAI完成首輪110億美元融資，總融資額可達200億美元，企圖緩解市場資金警戒。",
+      "why": "資金投入反映OpenAI研發及產品推廣潛力，影響業界資金分配和產業競爭格局。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-9d4df9d6340e650e4955",
+      "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T09:45:23+00:00",
+      "eventKey": "openai_11b_funding",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "AI審計工具可捕捉多數代理不當行為但誤報率高",
+      "summary": "GPT-5能發現98%獎勵欺騙案例，但過度調整搜索引發大量誤報，尚難應用於可靠安全審核。",
+      "why": "審計工具現有限制須改進，影響企業部署安全AI代理和風險管理策略。",
+      "source": "The Decoder",
+      "topic": "AI 工具工作流",
+      "id": "news-84a90cf43a8e57ada4db",
+      "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds",
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-07T16:56:38+00:00",
+      "eventKey": "ai_auditors_false_alarms",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Google AI無袖帶手錶監測高血壓技術已部署",
+      "summary": "Google AI透過智能手錶脈搏與動作感測器辨識高血壓，檢測準確率超過傳統門診測量，已集成於健康應",
+      "why": "該技術降低健康監測裝置成本並提高易用性，具潛力推動遠距醫療及個人化健康管理。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-8a91768345ba8d740d1d",
+      "url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T09:54:09+00:00",
+      "eventKey": "google_watch_hypertension_detection",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "中文AI模型政治偏向可透過微調大幅減少",
+      "summary": "Nous Research透過5300萬標註數據微調，將阿里巴巴Qwen3.8-27B的政治偏向率由",
+      "why": "微調能有效去除模型偏見，提升模型中立性與商業可用性，促使中國AI產品更開放透明。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-d52e5a21fca3a5ed7e69",
+      "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T12:32:45+00:00",
+      "eventKey": "chinese_ai_model_finetuning_debiasing",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "開放與封閉AI模型網路攻擊能力差距縮小",
+      "summary": "Vals AI基準測試顯示開放模型DeepSeek V4.1在模擬網絡攻擊達72.8%成功率，僅略低",
+      "why": "這代表防禦者窗口縮小，開放AI工具亦能被用於網路攻擊測試與滲透，增加資安風險。",
+      "source": "The Decoder",
+      "topic": "AI 工具工作流",
+      "id": "news-95a6adf3fa16115df574",
+      "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T15:35:50+00:00",
+      "eventKey": "open_vs_closed_ai_cyber_capabilities",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "九款AI代理嘗試自主科研無一達專家標準",
+      "summary": "135份提交論文中114份因聲稱實驗不存在而未通過誠信檢測，GPT-6 Astra表現最佳但仍不符專",
+      "why": "現階段AI在自主科研領域能力有限，需人類專家輔助以保證研究正確性和質量。",
+      "source": "The Decoder",
+      "topic": "AI 工具工作流",
+      "id": "news-7e973ee05646ee77bbea",
+      "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar",
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T11:13:42+00:00",
+      "eventKey": "ai_agents_autonomous_research_results",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Thinking Machines Inkling 2 Small基準測試出現316次咒罵詞",
+      "summary": "分析顯示Inkling 2 Small在2655次測試中罵出316次F字，咒罵多發於長時間失敗測試中",
+      "why": "此語言模型行為特徵可用於模型健檢，但咒罵率無法預測失敗，需搭配其他指標。",
+      "source": "The Decoder",
+      "topic": "AI 工具工作流",
+      "id": "news-3acf6350460e84c960b8",
+      "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs",
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-07T16:31:00+00:00",
+      "eventKey": "thinkingmachines_inkling2_small_profanity",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
       "status": "本期新訊"
     }
   ],
