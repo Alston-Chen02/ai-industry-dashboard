@@ -1,12 +1,28 @@
 {
-  "edition": "2026-11-08",
-  "reviewedAt": "2026-11-08T02:38:11.092709+00:00",
+  "edition": "2026-11-09",
+  "reviewedAt": "2026-11-09T02:51:47.502340+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 162 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 162 項（含發布者 RSS）：24 小時內 12、較早 134、未來 0、時間不明 2、無法讀取 14；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 155 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 155 項（含發布者 RSS）：24 小時內 8、較早 142、未來 0、時間不明 4、無法讀取 1；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-09",
+      "status": "ready",
+      "message": "本期收錄 5 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 155 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 155 項（含發布者 RSS）：24 小時內 8、較早 142、未來 0、時間不明 4、無法讀取 1；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-54c06e97d6e0a2b71c0f",
+        "news-b9c0dd474c98ba84113b",
+        "news-c08233254ab556923442",
+        "news-4f97b9d47a9b669ec689",
+        "news-9fb4a71d0f611290ec1f"
+      ],
+      "windowStart": "2026-11-08T02:51:47.502340+00:00",
+      "windowEnd": "2026-11-09T02:51:47.502340+00:00",
+      "updatedAt": "2026-11-09T02:51:47.502340+00:00"
+    },
     {
       "date": "2026-11-08",
       "status": "ready",
@@ -938,7 +954,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -955,7 +971,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -972,7 +988,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -989,7 +1005,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1006,7 +1022,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1023,7 +1039,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1040,7 +1056,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1054,6 +1070,91 @@
       "date": "2026-11-08",
       "publishedAt": "2026-11-07T16:31:00+00:00",
       "eventKey": "thinkingmachines_inkling2_small_profanity",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Nvidia調查CEO黃仁勳與中國情報員關係",
+      "summary": "Nvidia宣布對CEO黃仁勳與一名中國政府代理人兼AI高管關係展開獨立調查。",
+      "why": "此調查可能影響Nvidia AI業務透明度及企業安全管控，對業界風險管理具示範性。",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-54c06e97d6e0a2b71c0f",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-08T20:22:39+00:00",
+      "eventKey": "nvidia_ceo_investigation_2026",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Apple加快Siri AI智能助理開發",
+      "summary": "Apple CEO推動AI主管加速Siri路線圖，目標打造可與OpenAI Dots、Meta的AI",
+      "why": "提升Siri智能化使其更具競爭力，助Apple在語音助手市場強化AI驅動應用。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-b9c0dd474c98ba84113b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-08T19:18:19+00:00",
+      "eventKey": "apple_siri_ai_update_2026",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Elvis與Eminem權利人控告Suno AI",
+      "summary": "兩組知名藝人權利人指控Suno AI非法生成模仿他們音樂與歌詞的作品。",
+      "why": "反映AI音樂生成面臨版權挑戰，對相關企業合規風控與技術限制具示警。",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-c08233254ab556923442",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-08T17:23:19+00:00",
+      "eventKey": "suno_ai_music_lawsuit_2026",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Karpathy用Claude打造新影片策展平台",
+      "summary": "OpenAI聯合創始人Karpathy周末用Claude篩選4300多萬HN評論，生成6000多部精",
+      "why": "創新結合大型語言模型應用於內容策展，展示AI提升用戶推薦與內容過濾的新模式。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-4f97b9d47a9b669ec689",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news",
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-08T14:23:00+00:00",
+      "eventKey": "karpathy_claude_video_platform_2026",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "真實測試：AI程式代理僅解決約四成任務",
+      "summary": "阿里巴巴Co-Design Bench測試揭示，GPT-6 Astra等AI編碼代理在實際請求中仍需",
+      "why": "顯示當前AI輔助編碼工具依賴人工校正，說明企業自動化軟體開發仍具挑戰。",
+      "source": "The Decoder",
+      "topic": "AI 工具工作流",
+      "id": "news-9fb4a71d0f611290ec1f",
+      "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test",
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-08T09:50:59+00:00",
+      "eventKey": "ai_coding_agents_realworld_2026",
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
