@@ -1,12 +1,30 @@
 {
-  "edition": "2026-11-09",
-  "reviewedAt": "2026-11-09T02:51:47.502340+00:00",
+  "edition": "2026-11-10",
+  "reviewedAt": "2026-11-10T04:43:00.705254+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 155 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 155 項（含發布者 RSS）：24 小時內 8、較早 142、未來 0、時間不明 4、無法讀取 1；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 163 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 164 項（含發布者 RSS）：24 小時內 24、較早 133、未來 0、時間不明 5、無法讀取 2；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-10",
+      "status": "ready",
+      "message": "本期收錄 7 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 163 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 164 項（含發布者 RSS）：24 小時內 24、較早 133、未來 0、時間不明 5、無法讀取 2；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-c988f42abbf6068f04c4",
+        "news-bcfee7afda18be7f8382",
+        "news-5ef93d9981a0db1c3c84",
+        "news-caa9073cefb43725f1a5",
+        "news-fece0721dfed346f98a9",
+        "news-cf2829ad74c8e9e2273e",
+        "news-05e31abb81030e94daf9"
+      ],
+      "windowStart": "2026-11-09T04:43:00.705254+00:00",
+      "windowEnd": "2026-11-10T04:43:00.705254+00:00",
+      "updatedAt": "2026-11-10T04:43:00.705254+00:00"
+    },
     {
       "date": "2026-11-09",
       "status": "ready",
@@ -1090,7 +1108,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -1107,7 +1125,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -1124,7 +1142,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1141,7 +1159,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1158,6 +1176,125 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic推Claude Fable 5.2與Mythos 5.2強化AI能力",
+      "summary": "Anthropic發布新AI模型Claude Fable 5.2與Mythos 5.2，強化物理問題",
+      "why": "新模型提升編碼、推理與視覺能力，加速企業技術落地與產品開發",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-c988f42abbf6068f04c4",
+      "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo",
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-09T21:15:23+00:00",
+      "eventKey": "anthropic_claude_fable_mythos_5_2",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Meta推出專為重複性任務設計小型AI模型Muse Ember",
+      "summary": "Meta發布小型AI模型Muse Ember，優化代理人重複性工作效能",
+      "why": "節省企業運算成本，提高自動化客服與數據處理效率",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-bcfee7afda18be7f8382",
+      "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do",
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-09T19:41:51+00:00",
+      "eventKey": "meta_muse_ember_small_model",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Apple推出$50 AI功能擴充包擴大Logic Pro使用量",
+      "summary": "Apple在Logic Pro中增設49.99美元的AI使用量擴充包",
+      "why": "提供創作者更多AI輔助功能，提升工作流程靈活性與生產效率",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-5ef93d9981a0db1c3c84",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-09T19:09:58+00:00",
+      "eventKey": "apple_intelligence_usage_pack",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "OpenAI官網",
+      "title": "ChatGPT Enterprise正式上架AWS Marketplace",
+      "summary": "ChatGPT Enterprise透過AWS Marketplace供企業簡化採購流程",
+      "why": "方便企業透過既有AWS帳戶採購及結算，促進企業部署意願",
+      "source": "OpenAI",
+      "topic": "企業 AI 應用",
+      "id": "news-caa9073cefb43725f1a5",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-09T19:00:00+00:00",
+      "eventKey": "chatgpt_enterprise_aws_marketplace",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "字節跳動推出Seedream 5.5支持長迭代無色偏影像編輯",
+      "summary": "Seedream 5.5實現多達100次穩定像素級圖像編輯無色彩漂移",
+      "why": "提升專業影像製作工作流程的精準編輯效果與穩定性",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-fece0721dfed346f98a9",
+      "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift",
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-09T18:50:01+00:00",
+      "eventKey": "bytedance_seedream_5_5",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Instagram開放AI自動生成自訂濾鏡工具Effect Builder",
+      "summary": "Instagram推出Effect Builder，透過AI生成個人化Stories濾鏡",
+      "why": "降低創作門檻，提升用戶內容創造力及平台互動性",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-cf2829ad74c8e9e2273e",
+      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-09T18:07:23+00:00",
+      "eventKey": "instagram_ai_effect_builder",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "影視製作人預言AI將超越CGI改變電影產業",
+      "summary": "Paramount Skydance CEO稱AI將成為電影製作的最大創意解鎖工具",
+      "why": "揭示AI對影視產業內容製作與特效創新的深遠影響",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-05e31abb81030e94daf9",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T00:28:49+00:00",
+      "eventKey": "paramount_skydance_ai_impact",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
       "status": "本期新訊"
     }
   ],
