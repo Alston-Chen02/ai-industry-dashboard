@@ -1,9 +1,9 @@
 {
-  "state": "ready",
-  "lastAttemptAt": "2026-11-10T04:43:00.705254+00:00",
+  "state": "failed",
+  "lastAttemptAt": "2026-11-11T02:54:05.593966+00:00",
   "lastSuccessAt": "2026-11-10T04:43:00.705254+00:00",
   "schedule": "每日 07:30（台灣時間；執行時間可能延遲）",
-  "message": "本次情報更新完成。 部分官方索引無法直連，請留意搜尋範圍。",
+  "message": "Search returned no inspectable source URLs",
   "accepted": 7,
   "rejected": 0,
   "inspection": {
