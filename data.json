@@ -1,12 +1,30 @@
 {
-  "edition": "2026-11-10",
-  "reviewedAt": "2026-11-10T04:43:00.705254+00:00",
+  "edition": "2026-11-12",
+  "reviewedAt": "2026-11-12T03:59:42.527817+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 163 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 164 項（含發布者 RSS）：24 小時內 24、較早 133、未來 0、時間不明 5、無法讀取 2；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 154 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 154 項（含發布者 RSS）：24 小時內 25、較早 116、未來 0、時間不明 1、無法讀取 12；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-12",
+      "status": "ready",
+      "message": "本期收錄 7 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 154 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 154 項（含發布者 RSS）：24 小時內 25、較早 116、未來 0、時間不明 1、無法讀取 12；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-e2c2882f272c7eb71bf3",
+        "news-ea01cfcdcca0ed6111e3",
+        "news-08f6941bcdbe742c0d0c",
+        "news-3c4a130ff1dbafc38dee",
+        "news-65b96c238445cdedc96b",
+        "news-b675b12cfc53ea49f00e",
+        "news-72b4397871537d44e938"
+      ],
+      "windowStart": "2026-11-11T03:59:42.527817+00:00",
+      "windowEnd": "2026-11-12T03:59:42.527817+00:00",
+      "updatedAt": "2026-11-12T03:59:42.527817+00:00"
+    },
     {
       "date": "2026-11-10",
       "status": "ready",
@@ -1193,7 +1211,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1210,7 +1228,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -1227,7 +1245,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "OpenAI官網",
@@ -1244,7 +1262,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1261,7 +1279,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -1278,7 +1296,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -1295,6 +1313,125 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Google Gemini Decision 1一次預測千題",
+      "summary": "Google Deepmind的Gemini Decisions API能一次性評分多達1000個封",
+      "why": "此API能快速且低成本處理大量決策任務，提升多模態AI應用效率。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-e2c2882f272c7eb71bf3",
+      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-11T20:12:46+00:00",
+      "eventKey": "google_gemini_decision_1",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Deepmind AlphaProof四周驗證Signal加密核心",
+      "summary": "Deepmind AlphaProof短短四週內完成Signal加密核心的數學驗證，顯著縮短傳統耗時",
+      "why": "顯示AI可加速安全軟件驗證流程，未來擴展至關鍵基礎設施有助提升安全性。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-ea01cfcdcca0ed6111e3",
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-11T18:18:25+00:00",
+      "eventKey": "deepmind_alphaproof_signal_verification",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "美企10月AI支出創新高增幅放緩",
+      "summary": "美國企業10月AI投資增長1.65%，成長趨緩且八成營收由1%大客戶帶動",
+      "why": "反映市場成熟，客戶服務AI成長中但利潤可能低於程式碼生成領域。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-08f6941bcdbe742c0d0c",
+      "url": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent",
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-11T19:35:11+00:00",
+      "eventKey": "us_corporate_ai_spending_oct2026",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "United限制AI代理訂票",
+      "summary": "United Airlines禁止個人AI助理代為訂機票，出於隱私及法規考量",
+      "why": "凸顯航空業對AI代理直接交易的監管疑慮，影響用戶及企業的AI訂票應用。",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-3c4a130ff1dbafc38dee",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-11T21:54:21+00:00",
+      "eventKey": "united_ai_agent_booking_restriction",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Gilbert + Tobin用AI重塑法律業務",
+      "summary": "律師事務所Gilbert + Tobin討論如何用AI工具改變法律專業操作模式",
+      "why": "展現法律產業的AI應用趨勢，提升效率並改變商業模式。",
+      "source": "OpenAI",
+      "topic": "企業 AI 應用",
+      "id": "news-65b96c238445cdedc96b",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-12T00:00:00+00:00",
+      "eventKey": "gilbert_tobin_ai_law",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google Blog",
+      "title": "Google Gemini現可在Apple CarPlay使用",
+      "summary": "Google Gemini AI助手正式支援Apple CarPlay車載系統",
+      "why": "提升車載AI互動體驗，擴展多平台應用場景。",
+      "source": "Google Blog",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-b675b12cfc53ea49f00e",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay",
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-11T17:00:00+00:00",
+      "eventKey": "google_gemini_apple_carplay",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google Blog",
+      "title": "Google Cloud推出專業代理架構師認證",
+      "summary": "Google Cloud發布Professional Agentic Architect認證，培訓高",
+      "why": "培養專業人才支持企業AI代理架構設計與實施，推動雲端AI應用。",
+      "source": "Google Blog",
+      "topic": "企業 AI 應用",
+      "id": "news-72b4397871537d44e938",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect",
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-11T17:00:00+00:00",
+      "eventKey": "google_cloud_professional_agentic_architect",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
       "status": "本期新訊"
     }
   ],
