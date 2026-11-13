@@ -1,12 +1,30 @@
 {
-  "edition": "2026-11-12",
-  "reviewedAt": "2026-11-12T03:59:42.527817+00:00",
+  "edition": "2026-11-13",
+  "reviewedAt": "2026-11-13T03:29:30.567984+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 154 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 154 項（含發布者 RSS）：24 小時內 25、較早 116、未來 0、時間不明 1、無法讀取 12；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 142 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 142 項（含發布者 RSS）：24 小時內 31、較早 109、未來 0、時間不明 1、無法讀取 1；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-13",
+      "status": "ready",
+      "message": "本期收錄 7 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 142 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 142 項（含發布者 RSS）：24 小時內 31、較早 109、未來 0、時間不明 1、無法讀取 1；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-a3e1afb4a33deb1bb631",
+        "news-d7c21c501eb23f12ba47",
+        "news-7ed04b33e97e89aa07c0",
+        "news-b397ff4d002aefbdc3da",
+        "news-67672a694e389b29af55",
+        "news-f79c2c87924aeba19dcd",
+        "news-de0b78c54f8e7111e736"
+      ],
+      "windowStart": "2026-11-12T03:29:30.567984+00:00",
+      "windowEnd": "2026-11-13T03:29:30.567984+00:00",
+      "updatedAt": "2026-11-13T03:29:30.567984+00:00"
+    },
     {
       "date": "2026-11-12",
       "status": "ready",
@@ -1330,7 +1348,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1347,7 +1365,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1364,7 +1382,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -1381,7 +1399,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "OpenAI",
@@ -1398,7 +1416,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google Blog",
@@ -1415,7 +1433,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google Blog",
@@ -1429,6 +1447,125 @@
       "date": "2026-11-12",
       "publishedAt": "2026-11-11T17:00:00+00:00",
       "eventKey": "google_cloud_professional_agentic_architect",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "谷歌釋出Gemini 4 Hydrogen強化Google Search回答能力",
+      "summary": "谷歌推出Gemini 4 Hydrogen模型，能解析複雜問題並針對多重子問題給予精準回應，現已整合",
+      "why": "新模型提升搜尋引擎複雜問題理解與回覆能力，強化用戶查詢體驗。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-a3e1afb4a33deb1bb631",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-12T21:55:32+00:00",
+      "eventKey": "google_gemini_4_search_launch",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google Blog",
+      "title": "Google正式發布Gemini 4 Hydrogen，主打成本效益與代理人工作流",
+      "summary": "新版Gemini 4 Hydrogen聚焦日常代理人型AI工作流程，提供開發者便捷工具提升效率。",
+      "why": "推動AI代理人工作流程普及，加快開發者構建與調試效率。",
+      "source": "Google Blog",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-d7c21c501eb23f12ba47",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-12T18:00:00+00:00",
+      "eventKey": "google_gemini_4_hydrogen_launch",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google Blog",
+      "title": "Gemini 4 Hydrogen助力開發者快速編碼與除錯",
+      "summary": "Google AI Studio開放Gemini 4 Hydrogen應用，強調成本效益與代理人編程",
+      "why": "促進日常編碼及代理人應用開發，加速產品創新流程。",
+      "source": "Google Blog",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-7ed04b33e97e89aa07c0",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-12T18:00:00+00:00",
+      "eventKey": "google_gemini_4_dev_tools",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic推出Claude Meetings，AI即時協助Google Meet會議",
+      "summary": "Claude AI可加入Google Meet視訊會議，實時生成文件、白板與會議紀錄，支援企業計劃。",
+      "why": "強化遠距會議效率及協作，企業團隊可依賴AI協助會議記錄與內容產出。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-b397ff4d002aefbdc3da",
+      "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-12T20:26:50+00:00",
+      "eventKey": "anthropic_claude_meetings_google_meet",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "OpenAI Official",
+      "title": "Amplitude加速產品迭代，OpenAI模型助其1-2日內推新功能",
+      "summary": "Amplitude依靠OpenAI模型建立主動型產品智能代理Wave，快速定位目標並支援編碼。",
+      "why": "大幅縮短產品改進週期，實現快速高頻次迭代與驗證。",
+      "source": "OpenAI Official",
+      "topic": "企業 AI 應用",
+      "id": "news-67672a694e389b29af55",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-12T20:00:00+00:00",
+      "eventKey": "amplitude_openai_product_agent",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google Blog",
+      "title": "Google發布五款新Flow工具，協助視覺藝術家創作故事",
+      "summary": "專為影像製作者與視覺藝術家設計的五種Google Flow工具，助力故事敘述與創意發想。",
+      "why": "拓展AI在創意視覺領域的應用，提高藝術創作效率與可能性。",
+      "source": "Google Blog",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-f79c2c87924aeba19dcd",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/new-google-flow-tools",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-12T20:30:00+00:00",
+      "eventKey": "google_new_flow_tools_visual_arts",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google Blog",
+      "title": "Google AI助力拯救澳洲巨型海帶森林",
+      "summary": "利用Google AI監測與修復澳洲海帶生態，回應暖海帶來的生態威脅。",
+      "why": "展現AI在環境保護與生態監控的實際應用價值。",
+      "source": "Google Blog",
+      "topic": "企業 AI 應用",
+      "id": "news-de0b78c54f8e7111e736",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-12T17:00:00+00:00",
+      "eventKey": "google_ai_environment_kelp_australia",
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
