@@ -1,12 +1,31 @@
 {
-  "edition": "2026-11-13",
-  "reviewedAt": "2026-11-13T03:29:30.567984+00:00",
+  "edition": "2026-11-14",
+  "reviewedAt": "2026-11-14T03:26:51.404544+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 142 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 142 項（含發布者 RSS）：24 小時內 31、較早 109、未來 0、時間不明 1、無法讀取 1；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 148 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 149 項（含發布者 RSS）：24 小時內 18、較早 125、未來 0、時間不明 4、無法讀取 2；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-14",
+      "status": "ready",
+      "message": "本期收錄 8 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 148 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 149 項（含發布者 RSS）：24 小時內 18、較早 125、未來 0、時間不明 4、無法讀取 2；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-96048276e5de0ccf8cbe",
+        "news-3b4bb26baf783f5ce404",
+        "news-5a7538ac02344da7fbc6",
+        "news-4998f35bb5f64754d87e",
+        "news-7887ca6fae3f41f0b556",
+        "news-d2a87e2f3ff3ae0e50e6",
+        "news-76eaf2c5f6d247068a13",
+        "news-fc65152e593cae50ca57"
+      ],
+      "windowStart": "2026-11-13T03:26:51.404544+00:00",
+      "windowEnd": "2026-11-14T03:26:51.404544+00:00",
+      "updatedAt": "2026-11-14T03:26:51.404544+00:00"
+    },
     {
       "date": "2026-11-13",
       "status": "ready",
@@ -1467,7 +1486,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google Blog",
@@ -1484,7 +1503,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google Blog",
@@ -1501,7 +1520,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1518,7 +1537,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "OpenAI Official",
@@ -1535,7 +1554,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google Blog",
@@ -1552,7 +1571,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google Blog",
@@ -1569,6 +1588,142 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "亞馬遜建設全球商品數據圖譜",
+      "summary": "亞馬遜宣布「World Product Graph」計劃，將索引網路上所有銷售商品資料，包括非亞馬遜",
+      "why": "此舉將提高亞馬遜平台商品搜尋完整度，減少用戶跳轉他站，增強電商競爭力。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-96048276e5de0ccf8cbe",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-13T23:49:11+00:00",
+      "eventKey": "amazon_world_product_graph",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI推ChatGPT Wallet加強AI購物",
+      "summary": "OpenAI全新AI錢包ChatGPT Wallet上線，讓AI代理安全處理用戶購物，支持臉部識別與",
+      "why": "強化AI在電商交易流程中的支付安全與便捷，提升用戶信任與跨代理購物體驗。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-3b4bb26baf783f5ce404",
+      "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet",
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-13T18:55:21+00:00",
+      "eventKey": "openai_chatgpt_wallet_launch",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic推出Claude for Manufacturing插件",
+      "summary": "Anthropic's Claude for Manufacturing可直接整合Autodesk等",
+      "why": "AI整合企業現有工廠軟體，有效自動化報價與供應商管理，提升製造效率。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-5a7538ac02344da7fbc6",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-13T16:37:01+00:00",
+      "eventKey": "anthropic_claude_manufacturing_plugin",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "近七成美國政府機構採用生成式AI",
+      "summary": "近70%的美國政府機構已使用生成式AI，勞工組織開始推動監管AI監控",
+      "why": "政府部門大規模AI採用推動相關勞工與隱私保護政策，影響公共及企業AI應用規範。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-4998f35bb5f64754d87e",
+      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T15:53:49+00:00",
+      "eventKey": "us_government_generative_ai_use",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Meta Muse AI代理開始代用戶撥打商業電話",
+      "summary": "Meta Muse具通話AI功能，為用戶撥打服務商業務電話，但企業接受度不一",
+      "why": "語音AI代理提升企業客戶溝通效率，但實務接受度與客戶體驗仍需磨合。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-7887ca6fae3f41f0b556",
+      "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T15:12:44+00:00",
+      "eventKey": "meta_muse_ai_calling",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google Blog",
+      "title": "Google Wallet整合Gemini應用推理消費分析",
+      "summary": "Google Wallet接入Gemini應用，提供用戶根據消費習慣的個人理財見解",
+      "why": "結合AI推論與支付工具，助力用戶智慧理財，拓展個人財務管理智能服務。",
+      "source": "Google Blog",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-d2a87e2f3ff3ae0e50e6",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app",
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-13T17:00:00+00:00",
+      "eventKey": "google_wallet_gemini_integration",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "因美國出口管制，中港投資人被拒Anthropic IPO",
+      "summary": "美國法規ITAR限制中國與香港投資人參與Anthropic首次公開募股，與產品地區限制相關",
+      "why": "出口管制影響AI企業資金渠道與國際投資布局，是AI產業合規與國際化挑戰。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-76eaf2c5f6d247068a13",
+      "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls",
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-13T18:01:53+00:00",
+      "eventKey": "anthropic_ipo_restriction_us_export_control",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "前OpenAI研究員指控中國AI模型使用Nvidia Blackwell",
+      "summary": "研究發掘多款中國AI模型內藏Nvidia Blackwell GPU特徵，疑違美出口規定",
+      "why": "此發現引發硬體供應鏈合規爭議，凸顯美國高效能AI芯片出口管制執行問題。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-fc65152e593cae50ca57",
+      "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T15:21:04+00:00",
+      "eventKey": "nvidia_blackwell_fingerprints_chinese_models",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
       "status": "本期新訊"
     }
   ],
