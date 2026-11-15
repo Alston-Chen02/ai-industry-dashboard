@@ -1,12 +1,29 @@
 {
-  "edition": "2026-11-14",
-  "reviewedAt": "2026-11-14T03:26:51.404544+00:00",
+  "edition": "2026-11-15",
+  "reviewedAt": "2026-11-15T02:55:43.953739+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 148 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 149 項（含發布者 RSS）：24 小時內 18、較早 125、未來 0、時間不明 4、無法讀取 2；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 153 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 153 項（含發布者 RSS）：24 小時內 8、較早 136、未來 0、時間不明 5、無法讀取 4；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-15",
+      "status": "ready",
+      "message": "本期收錄 6 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 153 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 153 項（含發布者 RSS）：24 小時內 8、較早 136、未來 0、時間不明 5、無法讀取 4；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-17fc6ede4247840a5e90",
+        "news-da064ff05244322e2a50",
+        "news-1fe7c02fe797769879ba",
+        "news-0657681e47e394960289",
+        "news-945b3dc7df7199150870",
+        "news-456ace67e0015fb35982"
+      ],
+      "windowStart": "2026-11-14T02:55:43.953739+00:00",
+      "windowEnd": "2026-11-15T02:55:43.953739+00:00",
+      "updatedAt": "2026-11-15T02:55:43.953739+00:00"
+    },
     {
       "date": "2026-11-14",
       "status": "ready",
@@ -1605,7 +1622,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1622,7 +1639,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1639,7 +1656,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1656,7 +1673,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1673,7 +1690,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google Blog",
@@ -1690,7 +1707,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1707,7 +1724,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1721,6 +1738,108 @@
       "date": "2026-11-13",
       "publishedAt": "2026-11-13T15:21:04+00:00",
       "eventKey": "nvidia_blackwell_fingerprints_chinese_models",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic CEO承認明年發展有巨大不確定性",
+      "summary": "Anthropic執行長Amodei表示，購買計算資源是公司最深刻的商業難題；IPO將作為財務緩衝應",
+      "why": "反映AI巨型模型高成本帶來的企業財務不確定性，投資者與用戶需關注計算資源投入與收益間平衡。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-17fc6ede4247840a5e90",
+      "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T19:05:17+00:00",
+      "eventKey": "anthropic_uncertainty_before_ipo",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Gemini 4 Carbon奪得MathArena數學基準冠軍",
+      "summary": "Google Gemini 4 Carbon和Anthropic Fable 5.2超越OpenAI",
+      "why": "揭示AI模型性能與成本的實際權衡，對企業選擇AI服務與成本管理至關重要。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-da064ff05244322e2a50",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T16:48:01+00:00",
+      "eventKey": "gemini4carbon_matharena_win",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic更新提示語指南提高Claude Opus 5.5效能",
+      "summary": "Anthropic取消舊思考提示，建議中等努力起步以加速執行",
+      "why": "使用者最佳化提示詞提升模型響應效率，有助企業降低運算成本並改善用戶體驗。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-1fe7c02fe797769879ba",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T16:42:56+00:00",
+      "eventKey": "anthropic_prompting_update",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI重組機器人團隊聚焦通用模型控制",
+      "summary": "以GPT-6 Astra替代專門機器人AI，技術成熟促使團隊合併",
+      "why": "顯示通用大模型可取代專用AI，改變企業機器人AI研發策略與團隊架構。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-0657681e47e394960289",
+      "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary",
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T11:40:51+00:00",
+      "eventKey": "openai_robotics_team_reassign",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic已能以低算力快速再訓練Mythos模型",
+      "summary": "前研究員指出公司算法加速改進且計算需求大幅下降",
+      "why": "代表模型訓練成本下降，促使企業可更靈活高效部署與迭代AI產品。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-945b3dc7df7199150870",
+      "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon",
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T11:21:41+00:00",
+      "eventKey": "anthropic_mythos_retrain_efficiency",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Runway開源Praxis-1可視訊AI控制機器人",
+      "summary": "Praxis-1以視訊訓練知識領先RoboLab-120基準",
+      "why": "提供開源機器人控制解決方案，利於企業低門檻集成視覺AI與機器人技術。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-456ace67e0015fb35982",
+      "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller",
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T09:45:45+00:00",
+      "eventKey": "runway_praxis1_open_source_robotics",
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
