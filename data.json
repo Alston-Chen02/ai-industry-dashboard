@@ -1,12 +1,30 @@
 {
-  "edition": "2026-11-15",
-  "reviewedAt": "2026-11-15T02:55:43.953739+00:00",
+  "edition": "2026-11-16",
+  "reviewedAt": "2026-11-16T02:55:42.543729+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 153 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 153 項（含發布者 RSS）：24 小時內 8、較早 136、未來 0、時間不明 5、無法讀取 4；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 159 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 160 項（含發布者 RSS）：24 小時內 10、較早 144、未來 0、時間不明 4、無法讀取 2；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-16",
+      "status": "ready",
+      "message": "本期收錄 7 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 159 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 160 項（含發布者 RSS）：24 小時內 10、較早 144、未來 0、時間不明 4、無法讀取 2；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-c57d5fdb338c13ebb499",
+        "news-33b95c2112c46efd0955",
+        "news-7310523931ec31d7ed58",
+        "news-63175f90faa0b2db66a2",
+        "news-7e59a840b84001132496",
+        "news-a720dacef8969fc0afab",
+        "news-b652366d4a49aac68ff7"
+      ],
+      "windowStart": "2026-11-15T02:55:42.543729+00:00",
+      "windowEnd": "2026-11-16T02:55:42.543729+00:00",
+      "updatedAt": "2026-11-16T02:55:42.543729+00:00"
+    },
     {
       "date": "2026-11-15",
       "status": "ready",
@@ -1758,7 +1776,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1775,7 +1793,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1792,7 +1810,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1809,7 +1827,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1826,7 +1844,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1840,6 +1858,125 @@
       "date": "2026-11-14",
       "publishedAt": "2026-11-14T09:45:45+00:00",
       "eventKey": "runway_praxis1_open_source_robotics",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "蘋果與OpenEvidence合作研究AI健康工具應用",
+      "summary": "蘋果宣布與臨床AI平台OpenEvidence合作進行健康AI工具使用研究，旨在提升對話式AI健康回",
+      "why": "有助於改善企業AI健康工具效用與用戶互動設計，促進醫療AI產業發展。",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-c57d5fdb338c13ebb499",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T01:26:56+00:00",
+      "eventKey": "apple_ai_health_study",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI推出科學博客分享AI科研成果",
+      "summary": "OpenAI發布科學博客，揭露新發現、實用方法及研究者如何利用AI推動科學研究的第一手資料。",
+      "why": "加速AI在科學研究的應用與創新，促使相關企業和研究機構掌握最新技術動態。",
+      "source": "OpenAI",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-33b95c2112c46efd0955",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-15T22:00:00+00:00",
+      "eventKey": "openai_science_blog_launch",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "前Nvidia CEO黃仁勳可能尋求復出",
+      "summary": "因中國間諜醜聞引發Nvidia領導層劇變，傳黃仁勳有意重返CEO職位，事件持續引發市場關注。",
+      "why": "Nvidia領導核心變動將影響AI晶片供應鏈及企業策略，相關廠商必須調整合作與風險應對。",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-7310523931ec31d7ed58",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-15T20:43:49+00:00",
+      "eventKey": "nvidia_ceo_jensen_huang_return",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic Claude Fable 5.2用模擬筆觸繪製影像",
+      "summary": "Anthropic推出Claude Fable 5.2，用Python模擬數十萬筆真實筆觸紋理，創造",
+      "why": "反映AI影像生成技術新突破，有助企業在創意設計及視覺內容領域開發差異化產品。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-63175f90faa0b2db66a2",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T15:42:03+00:00",
+      "eventKey": "anthropic_claude_fable_painting",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "澳洲央行指出AI優先影響年輕軟體與客服工作者",
+      "summary": "報告顯示自ChatGPT後，15至24歲年輕人在軟體開發與客服職缺及就業中下降較明顯。",
+      "why": "為企業勞動力規劃與人力策略提供數據支持，影響招聘與培訓政策制定。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-7e59a840b84001132496",
+      "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T10:45:58+00:00",
+      "eventKey": "australia_central_bank_ai_young_workers",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "美團發布1.6兆參數AI代理模型不依賴Nvidia GPU",
+      "summary": "美團公開LongCat-2.5模型權重，採用國產華為昇騰晶片訓練，終端表現接近Anthropic的同",
+      "why": "突顯中國自主AI硬體與模型技術崛起，對企業AI基礎設施選擇及供應鏈有重大影響。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-a720dacef8969fc0afab",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T10:06:06+00:00",
+      "eventKey": "meituan_longcat_asic_model_release",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "疑與前Nvidia CEO情人相關企業促成百億美元晶片訂單",
+      "summary": "Megaspeed公司於2024到2025年間，為中國企業促成近120億美元Nvidia晶片訂單。",
+      "why": "揭露晶片供應鏈與市場實況，影響AI硬體市場及中美貿易政策企業策略。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-b652366d4a49aac68ff7",
+      "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T14:45:12+00:00",
+      "eventKey": "nvidia_chip_orders_megaspeed",
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
