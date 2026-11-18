@@ -1,12 +1,28 @@
 {
-  "edition": "2026-11-16",
-  "reviewedAt": "2026-11-16T02:55:42.543729+00:00",
+  "edition": "2026-11-18",
+  "reviewedAt": "2026-11-18T04:37:36.435525+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 159 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 160 項（含發布者 RSS）：24 小時內 10、較早 144、未來 0、時間不明 4、無法讀取 2；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 1 筆候選未通過檢核。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 27、較早 116、未來 0、時間不明 0、無法讀取 9；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-18",
+      "status": "ready",
+      "message": "本期收錄 5 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 1 筆候選未通過檢核。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 27、較早 116、未來 0、時間不明 0、無法讀取 9；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-8f6af8c44a4a1bfb5de3",
+        "news-73687e4d2d12cc3c627a",
+        "news-20774146b79ca781277a",
+        "news-fc8988f3e7d340bc0f40",
+        "news-782245fbd80625eb45b0"
+      ],
+      "windowStart": "2026-11-17T04:37:36.435525+00:00",
+      "windowEnd": "2026-11-18T04:37:36.435525+00:00",
+      "updatedAt": "2026-11-18T04:37:36.435525+00:00"
+    },
     {
       "date": "2026-11-16",
       "status": "ready",
@@ -1878,7 +1894,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "OpenAI",
@@ -1895,7 +1911,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -1912,7 +1928,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1929,7 +1945,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1946,7 +1962,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1963,7 +1979,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -1980,6 +1996,91 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI發布更強且成本更低的GPT-6.2 Astra和Sol",
+      "summary": "OpenAI推出GPT-6.2 Astra與Sol，提升專業輸出、程式碼能力，降低API價格，A3版",
+      "why": "此更新使企業可提升AI應用效能且成本下降，促進更廣泛採用。",
+      "source": "官方公告",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-8f6af8c44a4a1bfb5de3",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-17T17:45:00+00:00",
+      "eventKey": "openai_gpt6.2_launch",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google",
+      "title": "Google Gemini 4 Carbon助力開發者創作多元應用",
+      "summary": "展示五位開發者用Gemini 4 Carbon打造創新產品。",
+      "why": "示範Gemini 4加速多領域AI工具和服務開發，推動應用多元化。",
+      "source": "Google官方博客",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-73687e4d2d12cc3c627a",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-17T21:00:00+00:00",
+      "eventKey": "google_gemini4_carbon_builders",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google",
+      "title": "Google AI模式Search推臨時對話串保護用戶隱私",
+      "summary": "Search AI Mode新增臨時對話串功能，避免歷史紀錄和個人化追蹤。",
+      "why": "保障用戶隱私，提高AI搜尋使用體驗，促進企業和個人用戶安心採用。",
+      "source": "The Verge報導",
+      "topic": "企業 AI 應用",
+      "id": "news-20774146b79ca781277a",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-17T18:58:01+00:00",
+      "eventKey": "google_search_ai_temporary_threads",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google DeepMind",
+      "title": "DeepMind推出AlphaGenome基因組研究工具",
+      "summary": "AlphaGenome和AlphaGenome Atlas助力疾病基因組映射與理解。",
+      "why": "強化醫療AI應用，提升疾病基因分析效率和準確性。",
+      "source": "Google官方博客",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-fc8988f3e7d340bc0f40",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-17T22:00:00+00:00",
+      "eventKey": "deepmind_alphagenome_release",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Meta",
+      "title": "Meta高管發布AI生成深偽影片示範AI創作能力",
+      "summary": "Meta首席AI官Alexandr Wang於Instagram分享生成式AI影片，包含多位大咖臉部",
+      "why": "展示生成式AI內容創作實務，增強AI在社交媒體和行銷的應用潛力。",
+      "source": "The Verge報導",
+      "topic": "企業 AI 應用",
+      "id": "news-782245fbd80625eb45b0",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-17T21:00:55+00:00",
+      "eventKey": "meta_alexandr_wang_ai_deepfake",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
       "status": "本期新訊"
     }
   ],
