@@ -1,12 +1,27 @@
 {
-  "edition": "2026-11-18",
-  "reviewedAt": "2026-11-18T04:37:36.435525+00:00",
+  "edition": "2026-11-19",
+  "reviewedAt": "2026-11-19T04:20:37.785167+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 1 筆候選未通過檢核。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 27、較早 116、未來 0、時間不明 0、無法讀取 9；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 147 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 149 項（含發布者 RSS）：24 小時內 34、較早 106、未來 0、時間不明 1、無法讀取 8；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-19",
+      "status": "ready",
+      "message": "本期收錄 4 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 147 項可信網域來源；優先官方索引可直連 2/3。 無法直連：OpenAI；搜尋涵蓋有限，不代表完整產業動態。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 149 項（含發布者 RSS）：24 小時內 34、較早 106、未來 0、時間不明 1、無法讀取 8；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-3a7670ff256fb2daa291",
+        "news-b681a976efae24727665",
+        "news-2bf6f0805fe38a1e72cb",
+        "news-d8ba4398191c3d4681c9"
+      ],
+      "windowStart": "2026-11-18T04:20:37.785167+00:00",
+      "windowEnd": "2026-11-19T04:20:37.785167+00:00",
+      "updatedAt": "2026-11-19T04:20:37.785167+00:00"
+    },
     {
       "date": "2026-11-18",
       "status": "ready",
@@ -2013,7 +2028,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google",
@@ -2030,7 +2045,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google",
@@ -2047,7 +2062,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google DeepMind",
@@ -2064,7 +2079,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Meta",
@@ -2078,6 +2093,74 @@
       "date": "2026-11-18",
       "publishedAt": "2026-11-17T21:00:55+00:00",
       "eventKey": "meta_alexandr_wang_ai_deepfake",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "谷歌發布Gemini 4 Neon支援多模態大上下文",
+      "summary": "谷歌發布Gemini 4 Neon，擁有一百萬token上下文窗口，可處理文本、影像、影視、聲音與文",
+      "why": "提供軟體開發及知識工作全新多模態大上下文AI能力，有助企業開發複雜應用。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-3a7670ff256fb2daa291",
+      "url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-18T21:03:23+00:00",
+      "eventKey": "google_gemini_4_neon_release",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Google DeepMind推Project Genie 4實時互動3D世界",
+      "summary": "DeepMind推出Genie 4，增強互動3D虛擬世界生成，支持文本即時修改並新增聲音與社群共享庫",
+      "why": "擴展AI在虛擬世界與元宇宙領域的應用，增強創作者與用戶互動與共享。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-b681a976efae24727665",
+      "url": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-18T19:26:25+00:00",
+      "eventKey": "google_deepmind_genie_4_launch",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "微軟推出七款內部AI模型取代外部供應方案",
+      "summary": "微軟發布MAI系列新模型，涵蓋代碼、安全、影像、語言等，提升性能且成本僅40%",
+      "why": "降低企業AI運營成本，提升穩定性，支持不間斷AI代理運行。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-2bf6f0805fe38a1e72cb",
+      "url": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-18T18:47:36+00:00",
+      "eventKey": "microsoft_new_inhouse_ai_models",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "多大校區擬棄用Google搜尋因AI限定開關政策",
+      "summary": "紐約、洛杉磯和芝加哥等大學區考慮放棄Google Search，因禁用AI功能須同時禁用搜尋服務",
+      "why": "顯示AI產品政策變更對大型機構客戶的影響，企業需關注服務使用限制。",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-d8ba4398191c3d4681c9",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-18T23:18:35+00:00",
+      "eventKey": "school_districts_drop_google_search",
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
