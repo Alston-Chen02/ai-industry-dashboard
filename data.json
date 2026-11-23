@@ -1,12 +1,28 @@
 {
-  "edition": "2026-11-22",
-  "reviewedAt": "2026-11-22T03:20:55.391168+00:00",
+  "edition": "2026-11-23",
+  "reviewedAt": "2026-11-23T03:52:49.886790+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 149 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 150 項（含發布者 RSS）：24 小時內 10、較早 130、未來 0、時間不明 10、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 147 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 147 項（含發布者 RSS）：24 小時內 9、較早 135、未來 0、時間不明 3、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-23",
+      "status": "ready",
+      "message": "本期收錄 5 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 147 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 147 項（含發布者 RSS）：24 小時內 9、較早 135、未來 0、時間不明 3、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-dc9c1d3cbe5e28747edb",
+        "news-a131c024f657a6c8b5ee",
+        "news-977e654476b3a1267cf2",
+        "news-355871b4c59f61e6aa35",
+        "news-cdf192da367fc2463591"
+      ],
+      "windowStart": "2026-11-22T03:52:49.886790+00:00",
+      "windowEnd": "2026-11-23T03:52:49.886790+00:00",
+      "updatedAt": "2026-11-23T03:52:49.886790+00:00"
+    },
     {
       "date": "2026-11-22",
       "status": "ready",
@@ -2334,7 +2350,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2351,7 +2367,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2368,7 +2384,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2385,7 +2401,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -2402,6 +2418,91 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "AI協助完成黎曼假說證明",
+      "summary": "Lean與Mathlib社區確認Levent Alpöge利用AI輔助完成黎曼假說的正確證明。",
+      "why": "此項成果展現AI可加速數學研究及複雜理論問題解決，促進高階學術應用。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-dc9c1d3cbe5e28747edb",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T11:08:31+00:00",
+      "eventKey": "riemann_hypothesis_ai_proof",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "安全研究揭露AI推理服務竊密風險",
+      "summary": "安全研究指出廉價AI推理平台存在竊取AWS密鑰與監聽用戶數據的嚴重安全漏洞。",
+      "why": "企業需加強AI供應鏈安全防護，避免敏感資料外洩與安全事件。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-a131c024f657a6c8b5ee",
+      "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users",
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T12:07:56+00:00",
+      "eventKey": "ai_inference_security_breach",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Perplexity推新監控API支持持續網路搜尋",
+      "summary": "Perplexity新增Monitor API，將網路搜尋由單次查詢轉為定時監控並透過webhook",
+      "why": "開發者可利用API自動監控目標網頁變化，提高資訊監測效率。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-977e654476b3a1267cf2",
+      "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog",
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T14:20:28+00:00",
+      "eventKey": "perplexity_monitor_api_launch",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "AI編碼代理在模擬工作環境任務完成率低",
+      "summary": "測試顯示雖AI代理在孤立測試表現優異，但在模擬軟件開發流程中整體完成任務比例不足10%。",
+      "why": "反映當前AI軟件開發助理仍難以應對複雜且非結構化日常工作。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-355871b4c59f61e6aa35",
+      "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace",
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T15:15:48+00:00",
+      "eventKey": "ai_coding_agents_workflow_challenge",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "GPT-6.2 Astra與Sol答覆更精簡透明度較低",
+      "summary": "OpenAI新版本GPT-6.2 Astra及Sol給出更簡潔回應，但透明度評分低於Anthropc",
+      "why": "企業使用時需平衡回答速度與模型透明度及可信度。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-cdf192da367fc2463591",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude",
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T09:41:37+00:00",
+      "eventKey": "gpt6_2_astra_sol_update",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
       "status": "本期新訊"
     }
   ],
