@@ -1,12 +1,29 @@
 {
-  "edition": "2026-11-23",
-  "reviewedAt": "2026-11-23T03:52:49.886790+00:00",
+  "edition": "2026-11-24",
+  "reviewedAt": "2026-11-24T07:01:37.886939+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 147 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 147 項（含發布者 RSS）：24 小時內 9、較早 135、未來 0、時間不明 3、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 1 筆候選未通過檢核。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 27、較早 117、未來 0、時間不明 8、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-24",
+      "status": "ready",
+      "message": "本期收錄 6 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 1 筆候選未通過檢核。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 27、較早 117、未來 0、時間不明 8、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-881744842399720dcb4f",
+        "news-6545db87281ad58ecc44",
+        "news-f878ab62338f7472bd88",
+        "news-b0689cf87ab570a441c8",
+        "news-609c363594e6686756a7",
+        "news-51f5774dedfdc43748b3"
+      ],
+      "windowStart": "2026-11-23T07:01:37.886939+00:00",
+      "windowEnd": "2026-11-24T07:01:37.886939+00:00",
+      "updatedAt": "2026-11-24T07:01:37.886939+00:00"
+    },
     {
       "date": "2026-11-23",
       "status": "ready",
@@ -2435,7 +2452,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2452,7 +2469,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2469,7 +2486,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2486,7 +2503,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2500,6 +2517,108 @@
       "date": "2026-11-22",
       "publishedAt": "2026-11-22T09:41:37+00:00",
       "eventKey": "gpt6_2_astra_sol_update",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI升級ChatGPT為GPT-6.2 Sol版本",
+      "summary": "新版本提升圖像理解率至71.7%，困難指令執行正確率達78.1%，並增強安全政策遵循，全球用戶自動切",
+      "why": "改善日常複雜查詢及多模態應用，提升產業與消費者互動體驗和服務可靠度",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-881744842399720dcb4f",
+      "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-23T20:39:18+00:00",
+      "eventKey": "openai_chatgpt_gpt6_2_sol_release",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Anthropic推出Claude Ship自動程式碼審查與合併工具",
+      "summary": "Claude AI可自動審查、修復並批核軟體拉取請求，協助工程師快速且安全地部署程式碼變更",
+      "why": "加速軟體開發工作流程中自動化審核，減少人工錯誤並提升持續交付效率",
+      "source": "The Verge",
+      "topic": "AI 工具工作流",
+      "id": "news-6545db87281ad58ecc44",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-23T20:00:00+00:00",
+      "eventKey": "anthropic_claude_ship_auto_pr",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Nothing發布Ear Note耳機具AI轉錄功能",
+      "summary": "新款耳機配備麥克風充電盒能錄音並即時轉錄對話，搭配App管理錄音與摘要，類似蘋果與亞馬遜同類設備",
+      "why": "提供企業及個人便捷文字化會議與談話記錄工具，強化工作交流與資訊管理",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-f878ab62338f7472bd88",
+      "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-23T19:04:52+00:00",
+      "eventKey": "nothing_ear_note_ai_transcription",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI與Cisco合作推出Linux執行時安全工具Shirudo",
+      "summary": "Shirudo為開源Linux執行環境，協助團隊在推出系統修補時保障系統安全與合規運行",
+      "why": "加強AI及其他關鍵系統的更新安全性，降低營運風險與中斷，提高維護效率",
+      "source": "OpenAI官方",
+      "topic": "AI 工具工作流",
+      "id": "news-b0689cf87ab570a441c8",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-23T21:20:00+00:00",
+      "eventKey": "openai_cisco_shirudo_launch",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Oregon與Virginia控告SpaceX Grok深偽色情違法",
+      "summary": "兩州檢察總長控訴SpaceX未落實深偽內容防護，誤導消費者並違反消費者保護法",
+      "why": "AI平台需強化內容安全機制，保障用戶免受非法深偽內容侵害，符合法規要求",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-609c363594e6686756a7",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-23T18:26:47+00:00",
+      "eventKey": "spacex_grok_deepfake_lawsuit",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI呼籲業界協議AI安全限制以防失控",
+      "summary": "OpenAI發表GPT系列困惑度數據，強調新一代模型快速提升能力需行業一致設限安全監控",
+      "why": "推動行業自律和共享安全標準，保障AI系統可控且降低潛在風險",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-51f5774dedfdc43748b3",
+      "url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-23T18:42:38+00:00",
+      "eventKey": "openai_ai_safety_limit_call",
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
