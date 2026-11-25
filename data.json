@@ -1,12 +1,29 @@
 {
-  "edition": "2026-11-24",
-  "reviewedAt": "2026-11-24T07:01:37.886939+00:00",
+  "edition": "2026-11-25",
+  "reviewedAt": "2026-11-25T05:34:26.403549+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 1 筆候選未通過檢核。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 27、較早 117、未來 0、時間不明 8、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 154 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 154 項（含發布者 RSS）：24 小時內 20、較早 124、未來 0、時間不明 10、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-25",
+      "status": "ready",
+      "message": "本期收錄 6 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 154 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 154 項（含發布者 RSS）：24 小時內 20、較早 124、未來 0、時間不明 10、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-ec1ec99fc2a2b87571e5",
+        "news-5e42b2783f9731cb9b69",
+        "news-7538e4a083698160b0a6",
+        "news-e86585c397fb091dac1d",
+        "news-a7a0adf7d6c734e350c9",
+        "news-09e62d6e11167de49a84"
+      ],
+      "windowStart": "2026-11-24T05:34:26.403549+00:00",
+      "windowEnd": "2026-11-25T05:34:26.403549+00:00",
+      "updatedAt": "2026-11-25T05:34:26.403549+00:00"
+    },
     {
       "date": "2026-11-24",
       "status": "ready",
@@ -2537,7 +2554,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -2554,7 +2571,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -2571,7 +2588,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "OpenAI",
@@ -2588,7 +2605,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://openai.com/news/rss.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -2605,7 +2622,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2622,6 +2639,108 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic推出Claude Artifacts獨立桌面App",
+      "summary": "Anthropic允許用戶在macOS和Windows上安裝Claude Artifacts作為獨立",
+      "why": "用戶可無需寫碼即打造自訂桌面工具，適合提高工作流效率與通知管理。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-ec1ec99fc2a2b87571e5",
+      "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-24T20:42:29+00:00",
+      "eventKey": "anthropic_claude_desktop_app",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic MCP SDK下載突破7億月次並擴展協議",
+      "summary": "Anthropic報告MCP介面每月下載量超過7億，推出背景任務和文件上傳功能，增強Claude自治",
+      "why": "更強自治能力使AI助理效能提升，利於企業自動化應用擴展。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-5e42b2783f9731cb9b69",
+      "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-24T19:23:41+00:00",
+      "eventKey": "anthropic_mcp_sdk_7b_downloads",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Novartis：AI將縮短藥物研發4年非萬靈丹",
+      "summary": "Novartis CEO強調AI雖無法十年內治癒癌症，將加速藥物開發時間約四年",
+      "why": "實際評估AI在製藥效率提升的利基，有助醫藥研發策略調整。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-7538e4a083698160b0a6",
+      "url": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-24T18:01:55+00:00",
+      "eventKey": "novartis_ai_drug_dev_acceleration",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI合作者呼籲優秀學生加入AI領域",
+      "summary": "Noam Brown建議有潛力學生放棄學業進入AI領域，指AI正進入高速發展期",
+      "why": "反映行業技術快速演進，對人才需求與教育弊端提出挑戰。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-e86585c397fb091dac1d",
+      "url": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-24T17:58:44+00:00",
+      "eventKey": "openai_noam_brown_student_call",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "Google Blog",
+      "title": "Google Gemini助力勇士隊提升球迷及營運經驗",
+      "summary": "Google Gemini與NBA勇士隊合作，串聯AI提升球迷互動與運營效率",
+      "why": "展示AI技術在體育娛樂領域的具體應用，開創粉絲體驗新模式。",
+      "source": "Google Blog",
+      "topic": "企業 AI 應用",
+      "id": "news-a7a0adf7d6c734e350c9",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-24T16:00:00+00:00",
+      "eventKey": "google_gemini_warriors_collab",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Tidal將於12月9日起禁止AI生成音樂",
+      "summary": "Tidal宣布禁播AI生成音樂，將刪除約2900萬首相關曲目，全天候阻擋約8萬曲目",
+      "why": "影響音樂串流平台內容管理與藝術版權策略的重要實務調整。",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-09e62d6e11167de49a84",
+      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-24T17:17:09+00:00",
+      "eventKey": "tidal_ai_music_ban_dec2026",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
       "status": "本期新訊"
     }
   ],
