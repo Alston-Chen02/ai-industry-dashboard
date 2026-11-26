@@ -1,12 +1,30 @@
 {
-  "edition": "2026-11-25",
-  "reviewedAt": "2026-11-25T05:34:26.403549+00:00",
+  "edition": "2026-11-26",
+  "reviewedAt": "2026-11-26T05:17:17.464959+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 154 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 154 項（含發布者 RSS）：24 小時內 20、較早 124、未來 0、時間不明 10、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 151 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 151 項（含發布者 RSS）：24 小時內 14、較早 132、未來 0、時間不明 5、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-26",
+      "status": "ready",
+      "message": "本期收錄 7 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 151 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 151 項（含發布者 RSS）：24 小時內 14、較早 132、未來 0、時間不明 5、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-17929128d139e3d01b22",
+        "news-844f8eb7272a7bfde0db",
+        "news-305e62040e8a734e17a1",
+        "news-a29d15b5b34b6d6035c2",
+        "news-32376c95badc3ad25e6a",
+        "news-927dd6b10beb1b9592b8",
+        "news-4d46466267d16523d8b0"
+      ],
+      "windowStart": "2026-11-25T05:17:17.464959+00:00",
+      "windowEnd": "2026-11-26T05:17:17.464959+00:00",
+      "updatedAt": "2026-11-26T05:17:17.464959+00:00"
+    },
     {
       "date": "2026-11-25",
       "status": "ready",
@@ -2656,7 +2674,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2673,7 +2691,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2690,7 +2708,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2707,7 +2725,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "Google Blog",
@@ -2724,7 +2742,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://blog.google/rss/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -2741,6 +2759,125 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "FCC批准SpaceX部署百萬AI晶片衛星",
+      "summary": "美國聯邦通訊委員會核准SpaceX的Starmind計畫，允許部署多達100萬顆搭載AI晶片的數據衛",
+      "why": "此為首例獲準於太空部署大規模AI數據中心衛星，推動空間AI運算與數據處理新形態，對企業高效能運算及雲服務佈局具重大影響。",
+      "source": "The Verge",
+      "topic": "企業 AI 應用",
+      "id": "news-17929128d139e3d01b22",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-25T17:44:51+00:00",
+      "eventKey": "spacex_fcc_approve_ai_satellites",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI推Private Inference保護企業敏感資料",
+      "summary": "OpenAI推出Private Inference功能，允許企業調用其頂級模型時，OpenAI無法存",
+      "why": "此功能增強企業對AI服務的資料保護信任，促進機密工作環境下AI技術的安全採用與整合。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-844f8eb7272a7bfde0db",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data",
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-25T18:22:02+00:00",
+      "eventKey": "openai_private_inference_data_privacy",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "DeepMind用AI代理自主管理Gemini實驗",
+      "summary": "DeepMind讓AI代理控制部分計算資源，進行Gemini模型實驗，但距離遞迴自我改進仍遠。",
+      "why": "展示AI代理在模型訓練及實驗自動化的應用，揭示AGI研發中自主監管與安全審查的重要流程。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-305e62040e8a734e17a1",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T13:23:36+00:00",
+      "eventKey": "deepmind_gemini_ai_agents_experiments",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Amazon與Meta洽談重啟Muse AI購物代理",
+      "summary": "Amazon與Meta正討論解除對Muse AI購物代理在Amazon平台上的阻擋，涉及廣告營收和推",
+      "why": "Muse在Amazon平台掌握半數代理購物訂單，恢復合作將影響電商AI購物體驗與廣告生態。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-a29d15b5b34b6d6035c2",
+      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store",
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-25T16:44:37+00:00",
+      "eventKey": "amazon_meta_muse_ai_shopping_negotiation",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "美芯片禁令拖慢中國AI實驗室進展",
+      "summary": "美國芯片限制及反蒸餾措施導致中國AI實驗室如Deepseek、Moonshot AI和阿里巴巴，模型",
+      "why": "供應鏈限制直接影響AI研發速度，加劇全球AI競爭和技術差距，企業需調整策略應對。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-32376c95badc3ad25e6a",
+      "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs",
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-25T20:51:02+00:00",
+      "eventKey": "us_chip_restrictions_slow_chinese_ai",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Verge",
+      "title": "Nothing全面展示AI語音耳機Ear Note",
+      "summary": "Nothing公開12月將發售的Ear Note AI耳機及充電盒，具通話錄音、轉錄與摘要功能。",
+      "why": "結合語音記錄與AI摘要功能，提升個人通訊管理與效率，代表智能穿戴AI產品新趨勢。",
+      "source": "The Verge",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-927dd6b10beb1b9592b8",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-25T16:00:59+00:00",
+      "eventKey": "nothing_ear_note_ai_earbuds_release",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Anthropic研究指企業採用AI障礙非技術問題",
+      "summary": "Anthropic分析美國58家公司近300次AI導入，指出最大困難來自審查負荷與組織阻力，非",
+      "why": "提示企業需改善內部流程與文化，才能更好整合AI工具創造商業價值。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-4d46466267d16523d8b0",
+      "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T13:14:27+00:00",
+      "eventKey": "anthropic_ai_adoption_challenges",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
       "status": "本期新訊"
     }
   ],
