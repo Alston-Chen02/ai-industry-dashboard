@@ -1,12 +1,30 @@
 {
-  "edition": "2026-11-26",
-  "reviewedAt": "2026-11-26T05:17:17.464959+00:00",
+  "edition": "2026-11-28",
+  "reviewedAt": "2026-11-28T04:50:16.680772+00:00",
   "reviewedTimePrecision": "instant",
   "timezone": "Asia/Taipei",
   "refreshMode": "scheduled",
   "buildStatus": "complete",
-  "coverage": "搜尋與發布者 RSS 取得 151 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 151 項（含發布者 RSS）：24 小時內 14、較早 132、未來 0、時間不明 5、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+  "coverage": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 8、較早 138、未來 0、時間不明 6、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
   "editions": [
+    {
+      "date": "2026-11-28",
+      "status": "ready",
+      "message": "本期收錄 7 則重要進展",
+      "note": "搜尋與發布者 RSS 取得 152 項可信網域來源；優先官方索引可直連 3/3。收錄文章的原始發布時間由程式核對；摘要未經人工逐則審閱。 來源時間檢核 152 項（含發布者 RSS）：24 小時內 8、較早 138、未來 0、時間不明 6、無法讀取 0；另有 0 頁未檢核；發布者 RSS 可讀 4/4。",
+      "articleIds": [
+        "news-49a0b0da24d2d35980b5",
+        "news-940b001f1ed79a18db92",
+        "news-08f091640aa6ea320e3c",
+        "news-0cda3e0008b79c9ae198",
+        "news-bae77cd2f2491f182bd4",
+        "news-bb3c3075e275f3434ee2",
+        "news-1db0e8d6686b4da36c67"
+      ],
+      "windowStart": "2026-11-27T04:50:16.680772+00:00",
+      "windowEnd": "2026-11-28T04:50:16.680772+00:00",
+      "updatedAt": "2026-11-28T04:50:16.680772+00:00"
+    },
     {
       "date": "2026-11-26",
       "status": "ready",
@@ -2776,7 +2794,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2793,7 +2811,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2810,7 +2828,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2827,7 +2845,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2844,7 +2862,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Verge",
@@ -2861,7 +2879,7 @@
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "status": "本期新訊"
+      "status": "歷史公告"
     },
     {
       "vendor": "The Decoder",
@@ -2875,6 +2893,125 @@
       "date": "2026-11-25",
       "publishedAt": "2026-11-25T13:14:27+00:00",
       "eventKey": "anthropic_ai_adoption_challenges",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "歷史公告"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI打造Athena資料平台減少AI代理亂猜",
+      "summary": "OpenAI正在開發名為Athena的語義層資料平台，以統一業務指標定義，提升ChatGPT工作版中",
+      "why": "此平台將標準化業務資料定義，提升AI代理決策準確度，有助企業提升內部自動化與數據分析效能。",
+      "source": "The Decoder",
+      "topic": "AI 工具工作流",
+      "id": "news-49a0b0da24d2d35980b5",
+      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T16:05:23+00:00",
+      "eventKey": "openai_athena_data_platform",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "SAP計畫裁員逾一萬人積極轉型AI",
+      "summary": "SAP計劃裁減至少10,000個職位，以加速其向人工智能技術的戰略轉型。",
+      "why": "代表大型傳統企業在腳步加快的AI轉型浪潮中，調整組織架構與人力資源以迎接AI業務模式變革。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-940b001f1ed79a18db92",
+      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai",
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T14:57:25+00:00",
+      "eventKey": "sap_ai_pivot_job_cuts",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "OpenAI反控Apple竊取商業機密涉供應鏈脅迫",
+      "summary": "OpenAI在加州法院對Apple提起反訴，指控Apple竊取商業秘密並脅迫共享供應商。",
+      "why": "顯示生成式AI領域競爭激烈，且企業間開始圍繞核心技術與供應鏈策略展開法律對抗。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-08f091640aa6ea320e3c",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T19:38:37+00:00",
+      "eventKey": "openai_vs_apple_trade_secret",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "禁用Nvidia Blackwell晶片現身上海數據中心",
+      "summary": "禁售的Nvidia Blackwell晶片被發現在上海一個與Alice Huang有關聯的數據中心中",
+      "why": "此事件反映高效能AI硬體在國際出口限制下仍有非法流動風險，影響全球AI硬體供應鏈安全與合規。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-0cda3e0008b79c9ae198",
+      "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T18:27:02+00:00",
+      "eventKey": "nvidia_blackwell_shanghai_center",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Meta與AMI Labs研究支持JEPA世界模型架構",
+      "summary": "Meta與AMI Labs發表三項研究，支持Yann LeCun推動的JEPA世界模型作為大型語言模",
+      "why": "展示新型AI架構在機器因果理解與機器人計劃中進展，可能挑戰語言模型主導的AI研發格局。",
+      "source": "The Decoder",
+      "topic": "生成式 AI 產品發布",
+      "id": "news-bae77cd2f2491f182bd4",
+      "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T16:58:56+00:00",
+      "eventKey": "meta_ami_jepa_models",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "駭客侵入美空軍Cloud One雲端平台",
+      "summary": "報告指出美國空軍的關鍵Cloud One雲端平台遭到駭客入侵。",
+      "why": "雲端平台安全事件凸顯軍事及高階AI運算平台在資訊安全上的嚴峻挑戰，影響未來國防AI應用部署。",
+      "source": "The Decoder",
+      "topic": "企業 AI 應用",
+      "id": "news-bb3c3075e275f3434ee2",
+      "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T16:06:43+00:00",
+      "eventKey": "usaf_cloud_one_breach",
+      "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
+      "evidence": "AI 整理・發布者 RSS 時間核對",
+      "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
+      "status": "本期新訊"
+    },
+    {
+      "vendor": "The Decoder",
+      "title": "Rockstar遭AI代碼代理挑戰延期發行策略",
+      "summary": "AI程式設計代理助力破解GTA 6 Xbox版本，快速帶來非官方PC多人大型遊戲體驗。",
+      "why": "反映AI代理工具加速軟體逆向開發，衝擊遊戲產業既有的分階段發行與營收模式。",
+      "source": "The Decoder",
+      "topic": "AI 工具工作流",
+      "id": "news-1db0e8d6686b4da36c67",
+      "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents",
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T15:37:47+00:00",
+      "eventKey": "rockstar_gta6_ai_reverse_engineering",
       "detail": "AI 摘要依發布者 RSS 的標題與摘要整理，未經人工逐則審閱；媒體報導時間不代表產品首發時間，可開啟原文查證。",
       "evidence": "AI 整理・發布者 RSS 時間核對",
       "timing": "報導發布時間依發布者 RSS（含時區）核對；來源：https://the-decoder.com/feed/",
